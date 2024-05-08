@@ -1,0 +1,20 @@
+<section id="clients" class="clients">
+<div class="container" data-aos="zoom-in">
+
+    <div class="section-title">
+        <h2>Partners</h2>
+    </div>
+
+<div class="clients-slider swiper">
+    <div class="swiper-wrapper align-items-center">
+    {% for partner in site.data.partners.data %}
+    <div class="swiper-slide">
+        <img src="assets/img/partners/{{ partner.image_filename }}" class="img-fluid" alt="">
+    </div>
+    {% endfor %}
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+
+</div>
+</section>

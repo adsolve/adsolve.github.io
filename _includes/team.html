@@ -1,0 +1,120 @@
+<section id="team" class="team">
+    <div class="container" data-aos="fade-up">
+        
+        <div class="section-title">
+            <h2>Team</h2>
+            <p>PI/Co-Is</p>
+        </div>
+
+        <div class="row">
+            {% for person in site.data.people.pi_coi %}
+            <div class="col-lg-2 col-md-6 d-flex align-items-fill">
+                <div class="member" data-aos="fade-up" data-aos-delay="100">
+                    <div class="member-img">
+                        {% if person.image_filename and person.image_filename != '' %}
+                        <img src="assets/img/team/{{ person.image_filename }}" class="img-fluid" alt="">
+                        {% else %}
+                        <img src="assets/img/team/placeholder.jpg" class="img-fluid" alt="">
+                        {% endif %}
+                        <div class="social">
+                            {% if person.homepage and person.homepage != '' %}
+                            <a href="{{ person.homepage }}"><i class="bi bi-house-door-fill"></i></a>
+                            {% endif %}
+                            {% if person.scholar and person.scholar != '' %}
+                            <a href="{{ person.scholar }}"><i class="bi bi-book"></i></a>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>{{ person.name }}</h4>
+                        <span>{{ person.desc }}</span>
+                        <span>{{ person.institution }}</span>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="section-title">
+            <h2></h2>
+            <p>Programme Manager</p>
+        </div>
+        <div class="row">
+            {% for person in site.data.people.programme_manager %}
+            <div class="col-lg-2 col-md-6 d-flex align-items-fill">
+                <div class="member" data-aos="fade-up" data-aos-delay="100">
+                    <div class="member-img">
+                        {% if person.image_filename and person.image_filename != '' %}
+                        <img src="assets/img/team/{{ person.image_filename }}" class="img-fluid" alt="">
+                        {% else %}
+                        <img src="assets/img/team/placeholder.jpg" class="img-fluid" alt="">
+                        {% endif %}
+                        <div class="social">
+                            {% if person.homepage and person.homepage != '' %}
+                            <a href="{{ person.homepage }}"><i class="bi bi-house-door-fill"></i></a>
+                            {% endif %}
+                            {% if person.scholar and person.scholar != '' %}
+                            <a href="{{ person.scholar }}"><i class="bi bi-book"></i></a>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>{{ person.name }}</h4>
+                        <span>{{ person.desc }}</span>
+                        <span>{{ person.institution }}</span>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        
+
+        <div class="section-title">
+            <h2></h2>
+            <p>Research Staff</p>
+        </div>
+        <div class="row">
+            {% for person in site.data.people.research_staff %}
+            <div class="col-lg-2 col-md-6 d-flex align-items-fill">
+                <div class="member" data-aos="fade-up" data-aos-delay="100">
+                    <div class="member-img">
+                        {% if person.image_filename and person.image_filename != '' %}
+                        <img src="assets/img/team/{{ person.image_filename }}" class="img-fluid" alt="">
+                        {% else %}
+                        <img src="assets/img/team/placeholder.jpg" class="img-fluid" alt="">
+                        {% endif %}
+                        <div class="social">
+                            {% if person.homepage and person.homepage != '' %}
+                            <a href="{{ person.homepage }}"><i class="bi bi-house-door-fill"></i></a>
+                            {% endif %}
+                            {% if person.scholar and person.scholar != '' %}
+                            <a href="{{ person.scholar }}"><i class="bi bi-book"></i></a>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>{{ person.name }}</h4>
+                        <span>{{ person.desc }}</span>
+                        <span>{{ person.institution }}</span>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <br>
+        <br>
+        <div class="row">
+            {% for institution in site.data.people.institutions %}
+            <div class="col-lg-2 col-md-6 d-flex align-items-fill">
+                <div class="member-institution" data-aos="fade-up" data-aos-delay="100">
+                    <div class="member-img">
+                        <img src="assets/img/team/{{ institution.image_filename }}" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+    </div>
+</section>

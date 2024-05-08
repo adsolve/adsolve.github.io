@@ -113,13 +113,6 @@ research_staff:
     homepage: "https://www.researchgate.net/profile/Emily-Thelwell"
     scholar: "https://scholar.google.com/citations?user=vlPcFc8AAAAJ&hl=en"
 
-  - name: "Dr. Peter Vickers"
-    image_filename: "vickers.jpeg"
-    institution: "Sheffield"
-    desc: "NLP, Evaluation"
-    homepage: "https://www.linkedin.com/in/peter-vickers-318221182/"
-    scholar: "https://scholar.google.com/citations?user=bhXFbr0AAAAJ&hl=en"
-
 institutions:
   - name: "QMUL"
     image_filename: "logo_qmul.png"

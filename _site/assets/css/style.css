@@ -10,24 +10,19 @@
 # General
 --------------------------------------------------------------*/
 
-.anchor-s{
+.anchor-s {
   display: block;
   height: 25vh;
   margin-top: -25vh;
   visibility: hidden;
 }
 
-.anchor-m{
+.anchor-m {
   display: block;
   height: 60vh;
   margin-top: -60vh;
   visibility: hidden;
 }
-
-
-
-
-
 
 body {
   font-family: "Open Sans", sans-serif;

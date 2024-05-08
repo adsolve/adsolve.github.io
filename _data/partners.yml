@@ -13,6 +13,8 @@ data:
     image_filename: "logo_jiva.png"
   - name: "trilateral"
     image_filename: "logo_trilateral.png"
+  - name: "Mumsnet"
+    image_filename: "logo_mumsnet.png"
   - name: "NHS"
     image_filename: "logo_nhs.png"
   - name: "Turing"

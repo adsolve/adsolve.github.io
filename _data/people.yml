@@ -51,7 +51,7 @@ pi_coi:
   - name: "Prof. Rob Procter"
     image_filename: "procter.png"
     institution: "Warwick"
-    desc: "Social Computing to Trustworthy, Ethical and Safe AI"
+    desc: "Trustworthy, Ethical and Safe AI"
     homepage: "https://warwick.ac.uk/fac/sci/dcs/people/rob_procter/"
     scholar: "https://scholar.google.co.uk/citations?user=IH2TPkkAAAAJ&hl=en"
 

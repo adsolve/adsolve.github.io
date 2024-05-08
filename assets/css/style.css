@@ -1,15 +1,6 @@
-/**
-* Template Name: Gp
-* Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
-# General
+# Anchoring destination
 --------------------------------------------------------------*/
-
 .anchor-s {
   display: block;
   height: 25vh;
@@ -24,6 +15,80 @@
   visibility: hidden;
 }
 
+/*--------------------------------------------------------------
+# Updates section
+--------------------------------------------------------------*/
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.filter-btn {
+  background-color: white;
+  padding: 8px 15px 10px 15px;
+  margin: 5px;
+  border: none;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+.filter-btn:hover,
+.filter-btn.active,
+.filter-btn.filter-active {
+  color: #151515;
+  background: #ffc451;
+}
+
+#pagination-controls {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 16px
+}
+
+#pagination-controls button {
+  text-align: center;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 3px;
+  border: none;
+  color: #151515;
+  background: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+#pagination-controls button:hover {
+  background-color: #ffc451;
+}
+
+
+#pagination-controls button:disabled {
+  background-color: white;
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+/**
+The following are adapted from: 
+- https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -813,9 +878,58 @@ section {
 
 /*--------------------------------------------------------------
 # Portfolio
+Note: Contains extensive modification for updates/events
 --------------------------------------------------------------*/
+
+.portfolio-container {
+  display: inline-block;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  /* Gap between items*/
+  gap: 10px;
+  /*Gap to following element*/
+  margin-bottom: 15vh;
+  /* Padding inside the container*/
+  padding: 10px;
+}
+
+.portfolio-item.isotope-hidden {
+  /* Force hiding non-matching items */
+  display: none !important;
+}
+
 .portfolio .portfolio-item {
-  margin-bottom: 30px;
+  width: 100%;
+  /* Initially hide all items */
+  display: none;
+  /* Text settings*/
+  text-align: left;
+  /*border: 1px solid #ebebeb;*/
+  padding: 10px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+  margin: 20px;
+}
+
+@media (max-width: 768px) {
+
+  /* Each item takes full width on smaller screens */
+  .portfolio-item {
+    flex-basis: 100%;
+  }
+}
+
+.portfolio .portfolio-item h4 {
+  font-size: 14pt;
+  font-weight: 600;
+}
+
+.portfolio .portfolio-item p {
+  font-size: 12pt;
+  padding: 0px;
+  margin: 0px;
 }
 
 .portfolio #portfolio-flters {

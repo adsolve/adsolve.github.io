@@ -37,7 +37,7 @@ pi_coi:
   - name: "Prof. Domenico Giacco"
     image_filename: "giacco.png"
     institution: "Warwick"
-    desc: "Clinical Psychiatry"
+    desc: "Clinical and Social Psychiatry"
     homepage: "https://warwick.ac.uk/fac/sci/med/staff/dgiacco/"
     scholar: "https://scholar.google.com/citations?user=_VzY7qYAAAAJ&hl=en"
 
@@ -109,7 +109,7 @@ research_staff:
   - name: "Emily Thelwell"
     image_filename: "thelwell.png"
     institution: "Warwick"
-    desc: "Clinical Psychiatry"
+    desc: "Clinical and Social Psychiatry"
     homepage: "https://www.researchgate.net/profile/Emily-Thelwell"
     scholar: "https://scholar.google.com/citations?user=vlPcFc8AAAAJ&hl=en"
 
@@ -129,3 +129,5 @@ institutions:
     image_filename: "logo_sheffield.png"
   - name: "Warwick"
     image_filename: "logo_warwick.png"
+  - name: "RAi"
+    image_filename: "logo_rai.png"

@@ -1,12 +1,11 @@
-
-
 <!-- ======= Home Section ======= -->
 <section id="hero" class="d-flex align-items-center justify-content-center">
   <div class="container" data-aos="fade-up">
 
     <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
       <div class="">
-        <h1><span>Ad</span>dressing <span>So</span>cio-technical <span>L</span>imitations o<span>v</span> LLMs for M<span>e</span>dical and Social Computing<span>.</span></h1>
+        <h1><span>Ad</span>dressing <span>So</span>cio-technical <span>L</span>imitations o<span>v</span> LLMs for
+          M<span>e</span>dical and Social Computing<span>.</span></h1>
         <h2>Unifying Expertise, Transforming Research: AI, Law, Medicine</h2>
       </div>
     </div>
@@ -45,9 +44,25 @@
     </div>
 
   </div>
+
+
 </section><!-- End Hero -->
 
 <main id="main">
+
+  <div class="row justify-content-center"
+    style="margin-top: 35px; margin-left: 50px; padding: 0px; background-color: rgb(300, 300, 300, 1)" data-aos="fade-up"
+    data-aos-delay="150">
+    {% for institution in site.data.people.institutions %}
+    <div class="col-lg-2 col-md-6 d-flex align-items-fill">
+      <div class="member-institution" data-aos="fade-up" data-aos-delay="100">
+        <div class="member-img">
+          <img src="assets/img/team/{{ institution.image_filename }}" class="img-fluid" alt="" style="max-height: 80px;">
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
 
   <!-- ======= About Section ======= -->
   <section id="about" class="about">
@@ -62,14 +77,28 @@
           <img src="assets/img/about1.jpg" class="img-fluid" alt="">
         </div>
         <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-          <h6>Large Language Models (LLMs), like those used in ChatGPT and virtual assistants, are cutting-edge artificial intelligence algorithms trained on massive amounts of text data. They can generate human-like text as well as creative content, translate across languages, and answer questions in an informative way. However they have known technical limitations such as biases, privacy leaks, poor reasoning and lack of explainability, which raises concerns about their use in critical domains such as healthcare and law.</h6>
+          <h6>Large Language Models (LLMs), like those used in ChatGPT and virtual assistants, are cutting-edge
+            artificial intelligence algorithms trained on massive amounts of text data. They can generate human-like
+            text as well as creative content, translate across languages, and answer questions in an informative way.
+            However they have known technical limitations such as biases, privacy leaks, poor reasoning and lack of
+            explainability, which raises concerns about their use in critical domains such as healthcare and law.</h6>
           <p class="fst-italic">
-            Our vision addresses the socio-technical limitations of LLMs that challenge their responsible and trustworthy use, particularly in the context of medical and legal use cases. Our goal is two-fold: 
+            Our vision addresses the socio-technical limitations of LLMs that challenge their responsible and
+            trustworthy use, particularly in the context of medical and legal use cases. Our goal is two-fold:
           </p>
           <ul>
-            <li><i class="ri-check-double-line"></i> Firstly to create an extensive evaluation benchmark (including suitable novel criteria, metrics and tasks) for assessing the limitations of LLMs in real world settings, enabling our standards and policy partners to implement responsible regulations, and industry and third sector partners to robustly assess their systems. To achieve this synergy we will be running co-creation and evaluation workshops throughout the project to create a co-production feedback loop with our stakeholders.
+            <li><i class="ri-check-double-line"></i> Firstly to create an extensive evaluation benchmark (including
+              suitable novel criteria, metrics and tasks) for assessing the limitations of LLMs in real world settings,
+              enabling our standards and policy partners to implement responsible regulations, and industry and third
+              sector partners to robustly assess their systems. To achieve this synergy we will be running co-creation
+              and evaluation workshops throughout the project to create a co-production feedback loop with our
+              stakeholders.
             </li>
-            <li><i class="ri-check-double-line"></i> The second part is to devise novel mitigating solutions based on new machine learning methodology, informed by expertise in law, ethics and healthcare, via co-creation with domain experts, that can be incorporated in products and services. Such methodology includes development of modules for temporal reasoning and situational awareness in long-form text, dialogue and multi-modal data, as well as alignment with human-preferences, bias reduction and privacy preservation. 
+            <li><i class="ri-check-double-line"></i> The second part is to devise novel mitigating solutions based on
+              new machine learning methodology, informed by expertise in law, ethics and healthcare, via co-creation
+              with domain experts, that can be incorporated in products and services. Such methodology includes
+              development of modules for temporal reasoning and situational awareness in long-form text, dialogue and
+              multi-modal data, as well as alignment with human-preferences, bias reduction and privacy preservation.
             </li>
           </ul>
         </div>
@@ -88,16 +117,17 @@
 
   <!-- ======= Team Section ======= -->
   {% include team.html %}
-  <!-- End Team Section -->   
+  <!-- End Team Section -->
 
   <!-- ======= Updates Section ======= -->
-  <section id="portfolio" class="portfolio">
+  <section id="news" class="portfolio">
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
         <h2>Updates</h2>
         <p>News & Events</p>
       </div>
+
       <div class="row" data-aos="fade-up" data-aos-delay="100">
         <div class="col-lg-12 d-flex justify-content-center">
           <ul id="portfolio-flters">
@@ -114,18 +144,29 @@
   </section><!-- End Updates Section -->
 
 
-    <!-- ======= Publications Section ======= -->
-    <section id="publications" class="about">
+  <!-- ======= Publications Section ======= -->
+  <section id="outputs" class="portfolio">
     <div class="container" data-aos="fade-up">
       <div class="section-title">
-        <h2>Publications</h2>
-        <p>Papers</p>
+        <h2>Outputs</h2>
+        <p>Publications & Software</p>
       </div>
-    <i>Coming soon.</i>
+
+      <div class="row" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">Publications</li>
+            <li data-filter=".filter-card">Software</li>
+          </ul>
+        </div>
+      </div>
+      <i>Coming soon.</i>
+
     </div>
   </section><!-- End About Section -->
 
-  
+
 
   <!-- ======= Contact Section ======= -->
   <section id="contact" class="contact">
@@ -136,8 +177,11 @@
         <p>Get in Touch</p>
       </div>
 
-      <iframe width="1024px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=p_SVQ1XklU-Knx-672OE-UyhlXqUvxBPuYtdrqmPUZVUNzlIRVE5RVQ4RkkyUUlaREpOWFpFOFdBSi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
-  
+      <iframe width="1024px" height="480px"
+        src="https://forms.office.com/Pages/ResponsePage.aspx?id=p_SVQ1XklU-Knx-672OE-UyhlXqUvxBPuYtdrqmPUZVUNzlIRVE5RVQ4RkkyUUlaREpOWFpFOFdBSi4u&embed=true"
+        frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh"
+        allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
     </div>
 
   </section><!-- End Contact Section -->

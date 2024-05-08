@@ -1,5 +1,5 @@
 <!-- ======= Home Section ======= -->
-<section id="hero" class="d-flex align-items-center justify-content-center">
+<section id="home" class="d-flex align-items-center justify-content-center">
   <div class="container" data-aos="fade-up">
 
     <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
@@ -51,13 +51,14 @@
 <main id="main">
 
   <div class="row justify-content-center"
-    style="margin-top: 35px; margin-left: 50px; padding: 0px; background-color: rgb(300, 300, 300, 1)" data-aos="fade-up"
-    data-aos-delay="150">
+    style="margin-top: 35px; margin-left: 50px; padding: 0px; background-color: rgb(300, 300, 300, 1)"
+    data-aos="fade-up" data-aos-delay="150">
     {% for institution in site.data.people.institutions %}
     <div class="col-lg-2 col-md-6 d-flex align-items-fill">
       <div class="member-institution" data-aos="fade-up" data-aos-delay="100">
         <div class="member-img">
-          <img src="assets/img/team/{{ institution.image_filename }}" class="img-fluid" alt="" style="max-height: 80px;">
+          <img src="assets/img/team/{{ institution.image_filename }}" class="img-fluid" alt=""
+            style="max-height: 80px;">
         </div>
       </div>
     </div>

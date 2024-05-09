@@ -21,8 +21,9 @@ window.onload = function () {
     }
 
     function createItems(items) {
-        // Generate div for each update item
-        items.forEach(item => {
+        // Assuming that the yml file contains news in chronological order (oldest top),
+        // reverse then generate div for each update item
+        items.reverse().forEach(item => {
             const div = document.createElement('div');
             div.className = `col-lg-4 col-md-6 portfolio-item filter-${item.category.trim().toLowerCase()}`;
             div.innerHTML = `<h4>${item.title}</h4><p style="font-size:11pt; color:#808080;">${item.date}</p><p>${item.desc} <a href="${item.url}">[Read More]</a></p>`;

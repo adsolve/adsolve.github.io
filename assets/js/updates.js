@@ -1,4 +1,4 @@
-window.onload = function() {
+window.onload = function () {
     const portfolioContainer = document.querySelector('.portfolio-container');
     let allItems = [];
     const itemsPerPage = 5; // Number of items per page
@@ -23,7 +23,7 @@ window.onload = function() {
         items.forEach(item => {
             const div = document.createElement('div');
             div.className = `col-lg-4 col-md-6 portfolio-item filter-${item.category.trim().toLowerCase()}`;
-            div.innerHTML = `<h4>${item.title}</h4> <p>${item.desc}  <a href="${item.url}">[Read More]</a>`;
+            div.innerHTML = `<h4>${item.title}</h4><p style="font-size:11pt; color:#808080;">${item.date}</p><p>${item.desc} <a href="${item.url}">[Read More]</a></p>`;
             portfolioContainer.appendChild(div);
         });
     }
@@ -54,7 +54,7 @@ window.onload = function() {
 
     function setupEventListeners() {
         document.querySelectorAll('.filter-btn').forEach(button => {
-            button.addEventListener('click', function() {
+            button.addEventListener('click', function () {
                 document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
                 this.classList.add('active');
                 const filterValue = this.id.replace('filter-', '');
@@ -62,17 +62,17 @@ window.onload = function() {
             });
         });
 
-        document.getElementById('updates-next-page').addEventListener('click', function() {
+        document.getElementById('updates-next-page').addEventListener('click', function () {
             if (currentPage < totalPages) {
                 currentPage++;
                 updatePagination();
             }
         });
 
-        document.getElementById('updates-prev-page').addEventListener('click', function() {
+        document.getElementById('updates-prev-page').addEventListener('click', function () {
             if (currentPage > 1) {
-            currentPage--;
-            updatePagination();
+                currentPage--;
+                updatePagination();
             }
         });
     }

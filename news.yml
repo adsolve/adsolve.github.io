@@ -1,9 +1,18 @@
 items:
-  - title: "Queen Mary project to tackle risks of ChatGPT-like systems for healthcare and law"
+  - title: "QMUL press release announcing Keystone project."
     desc: "Professor Maria Liakata awarded RAI UK Keystone grant to address sociotechnical limitations of Large Language Models (LLMs)."
     url: "https://www.qmul.ac.uk/media/news/2024/se/queen-mary-project-to-tackle-risks-of-chatgpt-like-systems-for-healthcare-and-law.html"
+    date: "2024/05/08"
     category: "news"
-  - title: "£12 million for UK projects to address challenge of rapid AI advances"
-    desc: "RAi UK press release announcing Keystone projects."
+
+  - title: "RAi UK press release announcing Keystone projects."
+    desc: "£12 million for UK projects to address challenge of rapid AI advances."
     url: "https://www.rai.ac.uk/press-release-may-24-8"
+    date: "2024/05/08"
+    category: "news"
+    
+  - title: "UKRI: £12 million for UK projects to address rapid AI advances"
+    desc: "A series of breakthrough projects has been awarded £12 million to address the challenges of rapid advances in artificial intelligence (AI)."
+    url: "https://www.ukri.org/news/12-million-for-uk-projects-to-address-rapid-ai-advances/"
+    date: "2024/05/09"
     category: "news"

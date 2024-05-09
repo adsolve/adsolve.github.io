@@ -1,0 +1,11 @@
+#### Work Stream 2: Evaluation Benchmark for RRI
+
+**Background & challenges:** State-of-the-art evaluation of LLMs has resulted in large benchmarks containing hundreds of linguistic and programmatic tasks (e.g. reasoning, mathematics, context free QA) and associated metrics meant to assess LLM capabilities. While such benchmarks offer a more challenging evaluation setting for AI systems, requiring more than memorisation ability for many of the tasks, they tell us nothing about the real-world applicability of LLMs in social applications. Evaluation of GPT-4 on medical QA has shown impressive results, with GPT-4 performing 20 points above average on samples from the U.S. Medical Licensing Examination. However, solving exam multiple-choice questions is far removed from the ability to diagnose or monitor a patient over time.
+
+<br>
+
+**Foci & implementation:** We will operationalise satisfiability of the RRI criteria identified in Work Stream 1 by implementing novel metrics and tasks developed through co-creation. Where appropriate strategies (e.g. memorisation prompting), metrics, tasks and data from existing benchmarks will be included (e.g. counterfactual tasks, inference-based metrics from big-bench or HELM) with the addition of new metrics (e.g. for privacy, inclusivity) and a focus on medical and legal needs. For example for privacy, we will explore re-identification tasks, and adversarial scenarios; for health monitoring, e.g. rationale-based classification, measured against known phenotypes; medical summarisation evaluation against evidence and human preferences using inference based and other metrics. An important consideration will be around how to protect evaluation benchmarks from leaking into training data; according to the recent statement to the Lords by OpenAI, the evaluation of LLMs needs to be performed by independent assessors. We will also explore scenarios for independent model assessment and safe sharing of datasets for training purposes.
+
+<br>
+
+**Outputs:** **Evaluation framework and benchmarks for RRI with LLMs**, which will drive and evaluate the project research, drive the feed-back loop between domain and technical experts, and ultimately provide an evaluation landmark for LLMs globally.

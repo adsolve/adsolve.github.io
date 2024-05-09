@@ -7,8 +7,8 @@ window.onload = function () {
     let filteredItems = [];
 
     function fetchItems() {
-        var filePath = 'news.yml' // Note hardcoded file path here
-        fetch(filePath) 
+        var filePath = 'other_data/news.yml' // Note hardcoded file path here
+        fetch(filePath)
             .then(response => response.text())
             .then(yaml => jsyaml.load(yaml))
             .then(data => {

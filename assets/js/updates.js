@@ -7,19 +7,21 @@ window.onload = function () {
     let filteredItems = [];
 
     function fetchItems() {
-        fetch('news.yml') /* Note hardcoded file path here */
+        var filePath = 'news.yml' // Note hardcoded file path here
+        fetch(filePath) 
             .then(response => response.text())
             .then(yaml => jsyaml.load(yaml))
             .then(data => {
                 createItems(data.items);
                 allItems = Array.from(portfolioContainer.querySelectorAll('.portfolio-item'));
-                filteredItems = allItems.slice(); // Initially, all items are shown
+                filteredItems = allItems.slice(); // Initially all items are shown
                 updatePagination();
             })
             .catch(error => console.error('Failed to load YAML file:', error));
     }
 
     function createItems(items) {
+        // Generate div for each update item
         items.forEach(item => {
             const div = document.createElement('div');
             div.className = `col-lg-4 col-md-6 portfolio-item filter-${item.category.trim().toLowerCase()}`;

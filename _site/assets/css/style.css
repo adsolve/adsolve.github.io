@@ -81,6 +81,13 @@
   opacity: 0.4;
 }
 
+/*--------------------------------------------------------------
+# Outputs section
+--------------------------------------------------------------*/
+#outputs .container .section-title {
+  padding-bottom: 10px;
+}
+
 /**
 The following are adapted from: 
 - https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/

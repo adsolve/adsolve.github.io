@@ -1,11 +1,11 @@
 items:
-  - title: "QMUL press release announcing Keystone project."
+  - title: "QMUL press release announcing Keystone project"
     desc: "Professor Maria Liakata awarded RAI UK Keystone grant to address sociotechnical limitations of Large Language Models (LLMs)."
     url: "https://www.qmul.ac.uk/media/news/2024/se/queen-mary-project-to-tackle-risks-of-chatgpt-like-systems-for-healthcare-and-law.html"
     date: "2024/05/08"
     category: "news"
 
-  - title: "RAi UK press release announcing Keystone projects."
+  - title: "RAi UK press release announcing Keystone projects"
     desc: "£12 million for UK projects to address challenge of rapid AI advances."
     url: "https://www.rai.ac.uk/press-release-may-24-8"
     date: "2024/05/08"

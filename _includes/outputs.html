@@ -1,0 +1,61 @@
+<section id="outputs" class="portfolio">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Outputs</h2>
+      <p>Publications & Software</p>
+    </div>
+
+    <!-- Load bib file from -->
+    <bibtex src="other_data/outputs.bib"></bibtex>
+
+    <!-- Decides how to display on the page -->
+    <div class="bibtex_structure">
+      <div class="sections bibtextypekey">
+        <div class="section book|article|inproceedings|mastersthesis|bachelorsthesis|techreport">
+          <br>
+          <h2>Publications</h2>
+          <div class="sort year" extra="ASC number">
+            <div class="templates"></div>
+          </div>
+        </div>
+        <br>
+        <div class="section misc">
+          <h2>Software</h2> <!-- Assume all software have bib entry misc -->
+          <div class="sort year" extra="ASC number">
+            <div class="templates"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="bibtex_display">
+      <!-- Templates go here -->
+      <div class="bibtex_template" style="display: none;">
+        <ul>
+          <li>
+            <span class="if title">
+              <span style="font-weight: bold;" class="title"></span>,
+            </span>
+            <div class="if author">
+              <span class="author"></span>
+            </div>
+            <div>
+              <span class="if journal"><em><span class="journal"></span></em>,</span>
+              <span class="if publisher"><em><span class="publisher"></span></em>,</span>
+              <span class="if booktitle">In <em><span class="booktitle"></span></em>,</span>
+              <span class="if address"><span class="address"></span>,</span>
+              <span class="if month"><span class="month"></span>,</span>
+              <span class="if year"><span class="year"></span>.</span>
+              <span class="if note"><span class="note"></span></span>
+              <!-- If there exists a url to the PDF or the package, render the link-->
+              <span class="if url"> <a class="url"> [PDF] </a></span>
+              <span class="if codeurl"><a class="url"> [Code] </a></span>
+            </div>
+            <div style="display:none"><span class="bibtextype"></span></div>
+          </li>
+        </ul>
+        <!-- Templates ends -->
+      </div>
+    </div>
+  </div>
+</section>

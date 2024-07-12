@@ -16,3 +16,9 @@ items:
     url: "https://www.ukri.org/news/12-million-for-uk-projects-to-address-rapid-ai-advances/"
     date: "2024/05/09"
     category: "news"
+
+  - title: "PhD Opportunities"
+    desc: "Fully funded PhD studentships are available in the Keystone project on addressing socio-technical limitations of Large Language Models (LLMs) in medical and social contexts. Application Deadline: 28 July 2024 (23:59GMT)"
+    url: "/assets/other/phd_advert_QMUL.pdf"
+    date: "2024/07/12"
+    category: "news"

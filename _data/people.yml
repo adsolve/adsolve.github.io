@@ -42,7 +42,7 @@ pi_coi:
     scholar: "https://scholar.google.com/citations?user=_VzY7qYAAAAJ&hl=en"
 
   - name: "Prof. Tom Sorell"
-    image_filename: "sorell.jpeg"
+    image_filename: "sorell.png"
     institution: "Warwick"
     desc: "Ethics for AI"
     homepage: "https://warwick.ac.uk/fac/soc/pais/people/sorell/"

@@ -1,13 +1,13 @@
 pi_coi:
   - name: "Prof. Maria Liakata"
-    image_filename: "liakata.jpeg"
+    image_filename: "liakata.png"
     institution: "QMUL (PI)"
     desc: "NLP, Temporality"
     homepage: "https://maria-liakata-nlp-group.github.io/"
     scholar: "https://scholar.google.co.uk/citations?user=eys5GB4AAAAJ&hl=en"
 
   - name: "Dr. Julia Ive"
-    image_filename: "ive.jpeg"
+    image_filename: "ive.png"
     institution: "QMUL"
     desc: "NLP, Privacy"
     homepage: "https://julia-ive.github.io/"
@@ -21,14 +21,14 @@ pi_coi:
     scholar: "https://scholar.google.com/citations?user=RlNm1d4AAAAJ&hl=en"
 
   - name: "Prof. Greg Slabaugh"
-    image_filename: "slabaugh.jpeg"
+    image_filename: "slabaugh.png"
     institution: "DERI, QMUL"
     desc: "Computer Vision"
     homepage: "https://www.eecs.qmul.ac.uk/~gslabaugh/"
     scholar: "https://scholar.google.com/citations?user=oUK2gu8AAAAJ&hl=en"
 
   - name: "Prof. Claude Chelala"
-    image_filename: "chelala.jpg"
+    image_filename: "chelala.png"
     institution: "QMUL"
     desc: "Cancer Research"
     homepage: "https://www.bartscancer.london/staff/professor-claude-chelala/"
@@ -56,21 +56,21 @@ pi_coi:
     scholar: "https://scholar.google.co.uk/citations?user=IH2TPkkAAAAJ&hl=en"
 
   - name: "Prof. Nikos Aletras"
-    image_filename: "aletras.jpg"
+    image_filename: "aletras.png"
     institution: "Sheffield"
     desc: "NLP, Legal NLP"
     homepage: "https://nikosaletras.com/s"
     scholar: "https://scholar.google.co.uk/citations?user=uxRWFhoAAAAJ&hl=en"
 
   - name: "Dr. Jiahong Chen"
-    image_filename: "chen.jpeg"
+    image_filename: "chen.png"
     institution: "Sheffield"
     desc: " Law, AI Standards"
     homepage: "https://www.sheffield.ac.uk/law/people/law-academic-staff/jiahong-chen-0"
     scholar: "https://scholar.google.com/citations?user=V0w8mncAAAAJ&hl=en"
 
   - name: "Dr. Aislinn Gómez Bergin"
-    image_filename: "gomez-bergin.png"
+    image_filename: "bergin.png"
     institution: "Nottingham, RAi UK"
     desc: "Responsible AI"
     homepage: "https://www.nottingham.ac.uk/research/groups/digitalmentalhealthandwellbeing/people/aislinn.bergin"
@@ -78,7 +78,7 @@ pi_coi:
 
 programme_manager:
   - name: "Dorothée Loziak"
-    image_filename: "loziak.jpeg"
+    image_filename: "loziak.png"
     institution: "QMUL"
     desc: ""
     homepage: ""
@@ -86,21 +86,21 @@ programme_manager:
 
 research_staff:
   - name: "Dr. Dimitris Gkoumas"
-    image_filename: "gkoumas.jpeg"
+    image_filename: "gkoumas.png"
     institution: "QMUL"
     desc: "NLP, Multi-modal"
     homepage: "https://gkoumasd.github.io/"
     scholar: "https://scholar.google.co.uk/citations?user=WaqvzcMAAAAJ&hl=en"
 
   - name: "Jenny Chim"
-    image_filename: "chim.jpeg"
+    image_filename: "chim.png"
     institution: "QMUL"
     desc: "NLP, Evaluation, Generation"
     homepage: "https://j-chim.github.io/"
     scholar: "https://scholar.google.com/citations?user=Kuhep28AAAAJ&hl=en"
 
   - name: "Dr. Joshua Kelsall"
-    image_filename: "kelsall.jpeg"
+    image_filename: "kelsall.png"
     institution: "Warwick"
     desc: "Ethics and RAI"
     homepage: "https://www.joshuaclarke-kelsall.com/"

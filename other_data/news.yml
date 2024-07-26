@@ -17,8 +17,20 @@ items:
     date: "2024/05/09"
     category: "news"
 
-  - title: "PhD Opportunities"
-    desc: "Fully funded PhD studentships are available in the Keystone project on addressing socio-technical limitations of Large Language Models (LLMs) in medical and social contexts. Application Deadline: 28 July 2024 (23:59GMT)"
+  - title: "PhD Opportunities - QMUL"
+    desc: "Fully funded PhD studentships are available in the Keystone project on addressing socio-technical limitations of Large Language Models (LLMs) in medical and social contexts. Application Deadline: 28 July 2024 (23:59GMT)."
     url: "/assets/other/phd_advert_QMUL.pdf"
     date: "2024/07/12"
+    category: "news"
+
+  - title: "Job Vacancy - Research Fellow at University of Nottingham"
+    desc: "Research Fellow position available at Nottingham to work on responsible AI initiatives and applications in healthcare and law. Application Deadline: 08 August 2024."
+    url: "https://jobs.nottingham.ac.uk/vacancy.aspx?ref=SCI216624"
+    date: "2024/07/26"
+    category: "news"
+
+  - title: "PhD Position - Warwick"
+    desc: "Funded PhD position at the Department of Computer Science at Warwick University: socio-technical challenges of delivering safe and ethical LLM-based applications in health and law. Application Deadline: 31 July 2024 (23:59GMT)."
+    url: "/assets/other/phd_advert_warwick.pdf"
+    date: "2024/07/26"
     category: "news"

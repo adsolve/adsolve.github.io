@@ -55,7 +55,7 @@ with col1:
         st.radio(
             "Select team category to render:",
             key="team_category",
-            options=["pi_coi", "research_staff"],
+            options=["pi_coi", "research_staff", "programme_manager"],
             index=0,
         )
 
@@ -78,14 +78,14 @@ for row in range(num_curr_rows):
                     os.path.join("assets", "img", "team", p["image_filename"]),
                     use_column_width="always",
                 )
+                desc = f"""<p class="l-font"> {p["name"]} </p> <p class="s-font">"""
+                if p["desc"]:
+                    desc += f'{p["desc"]} <br> {p["institution"]}'
+                else:
+                    desc += p["institution"]
+                desc += "</p>"
+
                 st.markdown(
-                    """<p class="l-font">"""
-                    + p["name"]
-                    + """</p>"""
-                    + """<p class="s-font">"""
-                    + p["desc"]
-                    + """<br>"""
-                    + p["institution"]
-                    + """</p>""",
+                    desc,
                     unsafe_allow_html=True,
                 )

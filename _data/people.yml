@@ -120,6 +120,14 @@ research_staff:
     homepage: "https://www.researchgate.net/profile/Emily-Thelwell"
     scholar: "https://scholar.google.com/citations?user=vlPcFc8AAAAJ&hl=en"
 
+  - name: "Dr. Maria Waheed"
+    image_filename: "placeholder.jpg"
+    institution: "Nottingham"
+    desc: ""
+    homepage: ""
+    scholar: ""
+
+
 institutions:
   - name: "QMUL"
     image_filename: "logo_qmul.png"

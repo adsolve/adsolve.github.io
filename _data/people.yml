@@ -34,6 +34,13 @@ pi_coi:
     homepage: "https://www.bartscancer.london/staff/professor-claude-chelala/"
     scholar: "https://scholar.google.com/citations?user=hKivCXcAAAAJ&hl=en"
 
+  - name: "Dr. Michael Schlichtkrull"
+    image_filename: "schlichtkrull.png"
+    institution: "QMUL"
+    desc: "NLP"
+    homepage: "https://michschli.github.io/"
+    scholar: "https://scholar.google.com/citations?user=z8YvWyEAAAAJ&hl=en"
+
   - name: "Prof. Domenico Giacco"
     image_filename: "giacco.png"
     institution: "Warwick"

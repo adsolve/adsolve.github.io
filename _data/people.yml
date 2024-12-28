@@ -121,11 +121,18 @@ research_staff:
     scholar: "https://scholar.google.com/citations?user=vlPcFc8AAAAJ&hl=en"
 
   - name: "Dr. Maria Waheed"
-    image_filename: "placeholder.jpg"
+    image_filename: "waheed.jpeg"
     institution: "Nottingham"
     desc: ""
-    homepage: ""
+    homepage: "www.linkedin.com/in/maria-waheed-5764001b4"
     scholar: ""
+
+  - name: "Dr. Xingwei Tan"
+    image_filename: "tan.jpeg"
+    institution: "Sheffield"
+    desc: ""
+    homepage: "www.linkedin.com/in/maria-waheed-5764001b4"
+    scholar: "https://scholar.google.com/citations?user=GAUKDsYAAAAJ&hl=en"
 
 
 institutions:

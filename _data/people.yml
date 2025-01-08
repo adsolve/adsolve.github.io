@@ -130,9 +130,16 @@ research_staff:
   - name: "Dr. Xingwei Tan"
     image_filename: "tan.jpeg"
     institution: "Sheffield"
-    desc: ""
+    desc: "NLP, Language Understanding, Reasoning"
     homepage: "https://xingwei-tan.github.io"
     scholar: "https://scholar.google.com/citations?user=GAUKDsYAAAAJ&hl=en"
+
+  - name: "Serene Chi"
+    image_filename: "chi.jpg"
+    institution: "Warwick"
+    desc: "LegalTech, Impact Assessment, Public Engagement, Technological Law"
+    homepage: "https://warwick.ac.uk/fac/soc/pais/people/chi/"
+    scholar: ""
 
 
 institutions:

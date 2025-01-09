@@ -123,7 +123,7 @@ research_staff:
   - name: "Dr. Maria Waheed"
     image_filename: "waheed.jpeg"
     institution: "Nottingham"
-    desc: ""
+    desc: "Responsible AI"
     homepage: "https://www.linkedin.com/in/maria-waheed-5764001b4"
     scholar: ""
 

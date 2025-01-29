@@ -36,7 +36,7 @@ items:
     category: "news"
 
   - title: "Project Launch Event"
-    desc: "We held a launch event for AdSolVe on Thursday 5th December 2024 at The Alan Turing Institute. This was a great opportunity for the research team to meet with stakeholders and gather feedback. Presentation slides and event overview are available here."
+    desc: "We held a launch event for AdSolVe on Thursday 5th December 2024 at The Alan Turing Institute. This was a great opportunity for the research team to meet with stakeholders and gather feedback. The event overview and presentation slides are available here."
     url: "/2024-12-05-adsolve-launch-event.html"
     date: "2024/12/05"
     category: "event"

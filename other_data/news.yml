@@ -40,3 +40,9 @@ items:
     url: "/2024-12-05-adsolve-launch-event.html"
     date: "2024/12/05"
     category: "event"
+
+  - title: "London AE Global Summit on Open Problems for AI, October 2024"
+    desc: "Prof. Maria Liakata was at London AE Global Summit on Open Problems for AI, 23-24th October 2024. You can watch her presentation – Addressing sociotechnical limitations of LLMs for medical and social computing."
+    url: "https://www.youtube.com/watch?v=ePOIz6rWnYU"
+    date: "2024/10/23"
+    category: "event"  

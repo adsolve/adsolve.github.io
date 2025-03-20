@@ -58,3 +58,9 @@ items:
     url: "https://www.bbc.co.uk/sounds/play/m0028bpf"
     date: "2025/02/27"
     category: "news"
+
+  - title: "TRT World News, Roundtable on LLMs and language learning"
+    desc: "Prof. Maria Liakata featured on TRT World News channel, Roundtable show, to discuss LLMs and language learning"
+    url: "https://www.youtube.com/watch?v=M7RpglNB9h4"
+    date: "2025/01/20"
+    category: "news"

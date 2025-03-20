@@ -40,3 +40,15 @@ items:
     url: "/2024-12-05-adsolve-launch-event.html"
     date: "2024/12/05"
     category: "event"
+
+  - title: "London AE Global Summit on Open Problems for AI, October 2024"
+    desc: "Prof. Maria Liakata was at London AE Global Summit on Open Problems for AI, 23-24th October 2024. You can watch her presentation – Addressing sociotechnical limitations of LLMs for medical and social computing."
+    url: "https://www.youtube.com/watch?v=ePOIz6rWnYU"
+    date: "2024/10/23"
+    category: "event"  
+
+  - title: "Creating time-sensitive sensors for mental health: Turing AI fellowship and Keystone AdSoLve workshop"
+    desc: "A joint event with a workshop themed around the AdSoLve mental health use case and presentations from Prof. Liakata's Turing AI fellowship on \"Creating time-sensitive sensors from heterogeneous user-generated content\". Register to attend in person at The Alan Turing Institute London, or email us to join online."
+    url: "https://www.eventbrite.co.uk/e/turing-ai-fellowship-showcase-adsolve-co-creation-workshop-tickets-1236340049369?aff=oddtdtcreator "
+    date: "2025/03/06"
+    category: "event"

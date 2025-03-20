@@ -52,3 +52,9 @@ items:
     url: "https://www.eventbrite.co.uk/e/turing-ai-fellowship-showcase-adsolve-co-creation-workshop-tickets-1236340049369?aff=oddtdtcreator "
     date: "2025/03/06"
     category: "event"
+
+  - title: "BBC Radio 4 Inside Science"
+    desc: "Prof. Maria Liakata was interviewed for BBC Radio 4, Inside Science, on the topic AI in science: Promise and Peril"
+    url: "https://www.bbc.co.uk/sounds/play/m0028bpf"
+    date: "2025/02/27"
+    category: "news"

@@ -66,7 +66,7 @@ items:
     category: "news"
 
   - title: "Event Overview - Turing AI fellowship and Keystone AdSoLve workshop"
-    desc: "We held a joint event in March 2025 with a workshop themed around the AdSoLve mental health use case and presentations from Prof. Liakata's Turing AI fellowship on \"Creating time-sensitive sensors from heterogeneous user-generated content\". The meeting summary with links to slides are now available."
+    desc: "We held a joint event in March 2025 with a workshop themed around the AdSoLve mental health use case and presentations from Prof. Liakata's Turing AI fellowship on \"Creating time-sensitive sensors from heterogeneous user-generated content\". The meeting summary with links to recorded presentations and slides are now available."
     url: "/2025-03-06-turing-ai-fellowship-mental-health-use-case.html"
     date: "2025/04/14"
     category: "event"

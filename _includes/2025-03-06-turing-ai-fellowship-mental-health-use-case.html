@@ -1,0 +1,106 @@
+<main>
+
+    <nav class="breadcrumbs">
+        <div class="container">
+            <ol>
+                <li><a href="index.html">Home</a></li>
+                <li class="current">2025-03-06 Creating time-sensitive sensors for mental health: Turing AI fellowship and Keystone AdSoLve workshop</li>
+            </ol>
+        </div>
+    </nav>
+
+    <section id="portfolio-details" class="portfolio-details section">
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="row gy-4">
+
+                <div class="col-lg-8">
+                    <h2>Overview</h2>
+
+                    <p>Our joint event took place on March 6th 2025.</p>
+
+                    <p>The morning session covered research in creating time sensitive sensors for mental health from
+                        Prof. Maria Liakata’s <a
+                            href="https://www.turing.ac.uk/research/research-projects/time-sensitive-sensing-language-and-user-generated-content">Turing
+                            AI Fellowship</a>, including presentations on identifying of moments of
+                        change with TempoFormer by Talia Tseriotou, capturing timelines and identifying changes with
+                        neural Hawkes processes by Anthony Hills, timeline summarisation and improving temporal
+                        reasoning by Jiayu Song, framework and benchmark for reasoning limitations in LLMs by Mahmud
+                        Akhter, evaluation of synthetic language data and LLMs by Jenny Chim, and a dashboard for
+                        mental health monitoring by Sebastian Lobbers.</p>
+                    <p>The afternoon began with talks by Dr. Becky Inkster, who presented on multi-modal data for mental
+                        health citizen science, and Prof. Dana Slonim, who presented about the MIND framework, the
+                        CLPsych 2025 shared task, and work at the intersection of AI and psychotherapy in her lab. Next,
+                        Dr. Onno Kampman gave an overview about AI applications implemented by the MOH Office for
+                        Healthcare Transformation (MOHT) in Singapore. Dr. Jen Martin from
+                        MindTech gave a talk about <a
+                            href="https://drive.google.com/file/d/1PTNUYdt04tooIUNA6ZAYF4fcpdThXRO-">the potentials,
+                            priorities, and barriers to using AI to
+                            address unmet needs in mental health</a>. Finally, from the AdSoLve project team, Prof.
+                        Domenico Giacco from the University of Warwick presented about <a
+                            href="https://drive.google.com/file/d/1jICIaQUtnP92aLWZaeEs7-kWPsiQo5UW">the AI-DIALOG+
+                            system</a>.</p>
+                    <p>The talks were followed by an introduction to the project’s evaluation platform and structured
+                        discussions around requirement identification on two use cases: (1) Summarisation for therapy
+                        sessions, and (2) Dialogue for self-management.</p>
+                    <br>
+                    <p><b>(1) Summarisation for therapy sessions</b></p>
+                    <p>The group examined different summary types and their specific requirements. For example,
+                        summaries may be client-facing or therapist-facing, and can be used for session preparation or
+                        supervision. The group emphasised that the intended use should be clearly defined when
+                        developing and evaluating LLM summaries.</p>
+                    <p>Common elements across document types include capturing session content, planned tasks (both new
+                        and from previous sessions), and information pertaining to treatment planning and medication
+                        changes. LLM-generated summaries should exclude sensitive information but may include expected
+                        treatment trajectories for comparison with baselines. The group stressed that language precision
+                        is essential, avoiding exaggeration, understatement or irrelevant details. Client-facing
+                        summaries should minimise jargon and speculation while incorporating explanations for decisions,
+                        such as why medication was adjusted. Supervision-focused summaries should follow a structured
+                        format to ensure all key elements are included.</p>
+                    <p>Several key challenges were identified: maintaining high factual precision without sacrificing
+                        recall; explicitly stating missing details (e.g., "no mention of self-harm"), which may not be
+                        well captured by standard summarisation metrics; documenting both positive and negative changes;
+                        and understanding how AI-driven components impact clinician workflow and downstream processes.
+                    </p>
+                    <p>The group also discussed conditional summarisation, where summaries focus on specific aspects,
+                        such as information relevant to a particular treatment or intervention. They explored AI's
+                        potential to augment existing documentation by citing specific session details to justify
+                        medical decisions (often missing in current therapist notes) and helping identify and reinforce
+                        positive interventions in cases where therapists might have concentrated more on reducing
+                        negative emotions rather than amplifying beneficial patterns.</p>
+                    <br>
+                    <p><b>(2) Dialogue for self-management</b></p>
+                    <p>The group examined how the system should engage with patients, noting that interaction style
+                        affects user experience, patient engagement, platform perception, and intervention
+                        effectiveness. The discussion covered key aspects of interaction including appropriate
+                        responsiveness to user input, the importance of non-judgmental communication, and the need for
+                        systems to provide rationales and context for their responses. The group highlighted concerns
+                        about turn-taking dynamics, noting that instant lengthy responses could overwhelm users while
+                        also acknowledging the technical challenges in mimicking human pauses.</p>
+                    <p>The group emphasised system accountability limitations, stressing that AI must never make
+                        clinical decisions and should set clear expectations about its capabilities. Requirements
+                        included avoiding feigned understanding, refraining from diagnosis or clinical labelling, not
+                        making decisions for users, and allowing users to shift topics and opt out of difficult
+                        discussions without coercion. Relatedly, the group highlighted severity-dependent requirements,
+                        noting that appropriate interactions vary significantly between normal days and crisis
+                        situations. The system should have a triage function, or at least it must know to escalate to
+                        human experts when necessary.</p>
+                    <p>The group identified conversation memory as a "must have" feature, enabling continuity across
+                        sessions for coherent therapeutic experiences and proper tracking of patient progression. This
+                        ties in with legal requirements regarding what data is necessary to process and store.</p>
+                    <p>Finally, the introduction of AI as a third actor in therapeutic settings raised important
+                        questions about transparency and alliance. The group questioned whether therapists should be
+                        required to disclose how AI tools influence their assessments and decision-making, and how this
+                        tripartite relationship might affect the trust between client and therapist.</p>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>

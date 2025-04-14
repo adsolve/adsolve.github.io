@@ -54,13 +54,19 @@ items:
     category: "event"
 
   - title: "BBC Radio 4 Inside Science"
-    desc: "Prof. Maria Liakata was interviewed for BBC Radio 4, Inside Science, on the topic AI in science: Promise and Peril"
+    desc: "Prof. Maria Liakata was interviewed for BBC Radio 4, Inside Science, on the topic AI in science: Promise and Peril."
     url: "https://www.bbc.co.uk/sounds/play/m0028bpf"
     date: "2025/02/27"
     category: "news"
 
   - title: "TRT World News Roundtable on LLMs and language learning"
-    desc: "Prof. Maria Liakata featured on TRT World News channel, Roundtable show, to discuss LLMs and language learning"
+    desc: "Prof. Maria Liakata featured on TRT World News channel, Roundtable show, to discuss LLMs and language learning."
     url: "https://www.youtube.com/watch?v=M7RpglNB9h4"
     date: "2025/01/20"
     category: "news"
+
+  - title: "Event Overview - Turing AI fellowship and Keystone AdSoLve workshop"
+    desc: "We held a joint event in March 2025 with a workshop themed around the AdSoLve mental health use case and presentations from Prof. Liakata's Turing AI fellowship on \"Creating time-sensitive sensors from heterogeneous user-generated content\". The meeting summary with links to slides are now available."
+    url: "/2025-03-06-turing-ai-fellowship-mental-health-use-case.html"
+    date: "2025/04/14"
+    category: "event"

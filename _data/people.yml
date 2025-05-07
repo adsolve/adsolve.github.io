@@ -92,12 +92,12 @@ programme_manager:
     scholar: ""
 
 research_staff:
-  - name: "Dr. Dimitris Gkoumas"
-    image_filename: "gkoumas.png"
+  - name: "Dr. Yuxiang Zhou"
+    image_filename: "zhou.jpeg"
     institution: "QMUL"
-    desc: "NLP, Multi-modal"
-    homepage: "https://gkoumasd.github.io/"
-    scholar: "https://scholar.google.co.uk/citations?user=WaqvzcMAAAAJ&hl=en"
+    desc: "NLP, LLM, Data-Centric AI"
+    homepage: "https://www.linkedin.com/in/yuxiang-zhou-8b879b320/"
+    scholar: "https://scholar.google.com/citations?user=qvvJvNQAAAAJ&hl=en"
 
   - name: "Jenny Chim"
     image_filename: "chim.png"

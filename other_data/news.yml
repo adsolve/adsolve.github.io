@@ -70,3 +70,9 @@ items:
     url: "/2025-03-06-turing-ai-fellowship-mental-health-use-case.html"
     date: "2025/04/14"
     category: "event"
+
+  - title: "Mind the Gap: Are NLP Benchmarks Fit-for-Purpose?"
+    desc: "Rob Procter, Professor of Social Informatics at Warwick University, gave a talk on May 23rd at the University of Edinburgh on the topic: \"Mind the Gap: Are NLP Benchmarks Fit-for-Purpose?\". Benchmarks have evolved as a tool for NLP researchers to measure performance of a model on a specific task. In this work-in-progress in the context of the AdSoLve project, he reviews evidence on whether existing benchmarking principles and practices remain effective in the context of advanced NLP technologies, such as LLMs, and their rapid adoption. View his presentation slides here."
+    url: "https://drive.google.com/file/d/1r4PXlBX1kdyxKQGazEFEp6M1opY5WCHY"
+    date: "2025/05/23"
+    category: "event"

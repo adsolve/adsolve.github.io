@@ -76,3 +76,9 @@ items:
     url: "https://drive.google.com/file/d/1r4PXlBX1kdyxKQGazEFEp6M1opY5WCHY"
     date: "2025/05/23"
     category: "event"
+
+  - title: "Event Overview - Evaluating AI for legal reasoning and support"
+    desc: "Our July 2025 workshop featured presentations and panel discussions from the project team alongside legal and third sector experts. The summary with links to slides and recorded presentations is now available."
+    url: "/2025-07-03-evaluating-ai-for-legal-reasoning-and-support-workshop.html"
+    date: "2025/07/03"
+    category: "event"

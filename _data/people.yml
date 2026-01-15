@@ -108,6 +108,13 @@ research_staff:
     homepage: "https://www.linkedin.com/in/yuxiang-zhou-8b879b320/"
     scholar: "https://scholar.google.com/citations?user=qvvJvNQAAAAJ&hl=en"
 
+  - name: "Dr. Sebastian Löbbers"
+    image_filename: "lobbers.jpg"
+    institution: "QMUL"
+    desc: "LLM evaluation, Human-Computer Interaction, Mental Health"
+    homepage: "https://sebastianlobbers.com/"
+    scholar: "https://scholar.google.com/citations?user=PqZZVGsAAAAJ&hl=en&oi=ao"
+
   - name: "Jenny Chim"
     image_filename: "chim.png"
     institution: "QMUL"

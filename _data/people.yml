@@ -1,3 +1,5 @@
+# @format
+
 pi_coi:
   - name: "Prof. Maria Liakata"
     image_filename: "liakata.png"
@@ -92,6 +94,13 @@ programme_manager:
     scholar: ""
 
 research_staff:
+  - name: "Dr. Anthony Hills"
+    image_filename: "hills.jpg"
+    institution: "QMUL"
+    desc: "NLP, Time-series, Change-detection, Mental Health, Social Media, LLMs"
+    homepage: "https://www.linkedin.com/in/anthony-hills-ph-d-b92359105/"
+    scholar: "https://scholar.google.com/citations?user=fhHnemUAAAAJ&hl=en"
+
   - name: "Dr. Yuxiang Zhou"
     image_filename: "zhou.jpeg"
     institution: "QMUL"
@@ -140,7 +149,6 @@ research_staff:
     desc: "LegalTech, Impact Assessment, Public Engagement, Technological Law"
     homepage: "https://warwick.ac.uk/fac/soc/pais/people/chi/"
     scholar: ""
-
 
 institutions:
   - name: "QMUL"

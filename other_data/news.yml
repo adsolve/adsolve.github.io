@@ -90,3 +90,9 @@ items:
     url: "/2026-01-21-the-future-of-multi-modal-healthcare-ai-workshop.html"
     date: "2026/01/21"
     category: "event"
+
+  - title: "Event Overview: Evaluating AI for legal reasoning and support - AdSoLve Stakeholder Workshop"
+    desc: "AdSoLve hosted it's second legal AI workshop on May 6th,  titled Evaluating AI for legal reasoning and support - AdSoLve Stakeholder Workshop for a day long discussion of the evoling landscapes of legal AI."
+    url: "/2026-legal-ai-workshop-summary.html"
+    date: "2026/05/06"
+    category: "event"

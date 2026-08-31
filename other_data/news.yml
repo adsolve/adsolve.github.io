@@ -96,3 +96,9 @@ items:
     url: "/2026-05-06-legal-ai-workshop-summary.html"
     date: "2026/05/06"
     category: "event"
+
+  - title: "Event Overview: Evaluating AI for mental health support - AdSoLve Stakeholder Workshop"
+    desc: "AdSoLve's June 2026 co-creation workshop brought together researchers, clinicians, industry experts, and people with lived experience to examine how AI-assisted mental health tools should be evaluated, governed, and integrated into real clinical workflows."
+    url: "/2026-06-24-evaluating-ai-for-mental-health-support-workshop.html"
+    date: "2026/06/24"
+    category: "event"

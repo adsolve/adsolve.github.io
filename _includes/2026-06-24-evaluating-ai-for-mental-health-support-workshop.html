@@ -1,0 +1,347 @@
+<!-- @format -->
+
+<main>
+	<nav class="breadcrumbs">
+		<div class="container">
+			<ol>
+				<li><a href="/index.html">Home</a></li>
+				<li class="current">
+					Evaluating AI for mental health support - AdSoLve Stakeholder Workshop
+				</li>
+			</ol>
+		</div>
+	</nav>
+
+	<section id="portfolio-details" class="portfolio-details section">
+		<div class="container" data-aos="fade-up" data-aos-delay="100">
+			<div class="row gy-4">
+				<div class="col-lg-8">
+					<h1>
+						Event Overview: Evaluating AI for mental health support - AdSoLve
+						Stakeholder Workshop
+					</h1>
+					<p>
+						The AdSoLve Co-Creation Workshop on Evaluating AI for Mental Health
+						took place on Wednesday 24 June 2026 at the Alan Turing Institute,
+						London. The day brought together presentations from the AdSoLve team,
+						invited talks from external experts on AI applications in mental
+						health, a panel discussion on key considerations for evaluating and
+						implementing AI-assisted tools in mental health care, and an evaluation
+						consensus workshop focused on the socio-technical evaluation of LLMs in
+						this setting.
+					</p>
+
+					<h3 id="team-presentations">AdSoLve Team Presentations</h3>
+					<p>
+						<b>Prof. Maria Liakata (QMUL)</b> presented an overview of AdSoLve, a
+						multidisciplinary project spanning Queen Mary, Nottingham, Sheffield,
+						Warwick, and the Responsible AI UK network. The project brings together
+						expertise in NLP, law, ethics, and clinical psychiatry to tackle the
+						socio-technical limitations of LLMs in medicine and law. It pursues two
+						goals: building multi-faceted evaluation methods, including novel
+						benchmarks, metrics, and a transparent reference-free approach beyond
+						LLM-as-a-judge for assessing LLM limitations in real-world settings; and
+						developing new machine-learning solutions, co-created with domain
+						experts, for temporal reasoning, situational awareness, bias reduction,
+						and privacy preservation. She grounded the work in growing evidence of
+						the risks of AI chatbots as mental health support tools, citing reports
+						of over-reliance, inappropriate advice, and sycophantic behaviour,
+						alongside persistent NLP challenges such as hallucination, weak
+						longitudinal reasoning, poor explainability, and privacy leakage. She
+						also provided an overview of AdSoLve's evaluation platform, which
+						combines benchmarks, LLM-as-a-judge, and transparent reference-free
+						reasoning-based evaluation.
+						<a href="https://drive.google.com/file/d/18eyxTWbHiCPaP3zD_lOTnRi3QIWMi-na/view?usp=drive_link">Presentation slides</a>.
+					</p>
+
+					<p>
+						<b>Talia Tseriotou (QMUL)</b> introduced her work on TempoFormer
+						(Tseriotou et al., 2024), a transformer that adapts only its top layers
+						through temporal embeddings that capture the distance between posts in
+						chronologically ordered streams. Its efficacy has been shown on three
+						change-detection tasks with different temporal granularities, including
+						mood changes such as switches and escalations in longitudinal social
+						media data. It outperformed few-shot prompted LLMs, exposing their
+						persistent struggles with temporal reasoning over irregular, evolving,
+						long-range context. This was followed by a presentation on the CLPsych
+						Shared Task (Ali et al., 2026a), in which global teams competed to
+						detect and summarise psychological state changes in social media
+						timelines and where TempoFormer remains highly competitive. With a
+						record number of teams competing this year, results showed that
+						maladaptive states escalate monotonically with presence intensity,
+						whereas adaptive states peak at moderate presence before declining.
+						These findings surface distinct behavioural trajectories that could
+						help anticipate deterioration or improvement early.
+					</p>
+
+					<p>
+						<b>Talia then presented work with Iqra Ali (QMUL)</b> on enabling
+						in-context learning in LLMs for longitudinal tasks, where current
+						models fail to capture structure in long, longitudinally evolving
+						context. The introduced LiFT method (Ali et al., 2026b) circumvents
+						these limitations through an instruction fine-tuning framework based
+						on staged curriculum learning and temporal-label conditioning. This
+						teaches models to attend to history in long-form documents and
+						generalise to out-of-distribution tasks involving predictions over
+						time, irrespective of temporal granularity.
+						<a href="https://drive.google.com/file/d/1VTau2aJgpqng7uIAqk4sp7NvSNEnzzOZ/view?usp=drive_link">Presentation slides</a>.
+					</p>
+
+					<p>
+						<b>Prof. Domenico Giacco (University of Warwick)</b> delivered a talk
+						on <i>AI in Mental Health Systems: Early Phase Evaluation of
+						AI-DIALOG+</i>. He gave a brief overview of DIALOG+,
+						<a href="#dialog-plus">presented in more detail later by Stefan Priebe</a>,
+						and explored how adding AI could help it reach more people without
+						replacing clinicians, thereby enhancing evidence-based treatment
+						provision within mental health services. Drawing on workshops in which
+						patients and clinicians tested a preliminary AI-assisted version, he
+						outlined what matters most for making such tools work well in practice:
+						they must add real value, fit naturally into existing care, remain
+						accessible and inclusive, and, above all, be safe, with clear oversight
+						and risk pathways. Within AdSoLve, we plan to develop an improved
+						version of AI-DIALOG+ based on open-source LLMs and guided by further
+						user-based workshops.
+						<a href="https://drive.google.com/file/d/1k3P088ZqK9BSnAMZkocRYGq3PbPZdJfO/view?usp=drive_link">Presentation slides</a>.
+					</p>
+
+					<p>
+						<b>Dr Aislinn Bergin (University of Nottingham)</b> introduced
+						AdSoLve's framework for evaluating LLMs in high-stakes domains such as
+						healthcare and law, built on three linked elements: requirements,
+						aspects, and metrics. The approach shifts evaluation away from
+						technical performance alone and towards real-world stakeholder needs,
+						using structured stakeholder engagement and a consensus process to
+						produce evaluation specifications that are both measurable and
+						meaningful to the people who rely on them.
+						<a href="https://drive.google.com/file/d/1ecoJVIP75zUfoBp04x8-DEZLGfyE5I5O/view?usp=drive_link">Presentation slides</a>.
+					</p>
+
+					<p>
+						<b>Prof. Rob Procter (University of Warwick)</b> extended the evaluation
+						question into lifecycle-long "assurance", arguing that AI evaluation
+						should not stop at procurement. Citing evidence that over 95% of
+						organisations adopting AI have not reported productivity gains, he
+						highlighted the concept of "workslop", where AI speeds up part of a
+						workflow but produces output below the required standard, creating
+						rework downstream. He argued that the unit of evaluation should be the
+						workflow with AI embedded rather than AI in isolation, since both the
+						system and how people use it can change over time. A social care case
+						study showed workers already treating AI drafts as a scaffold to edit
+						and take ownership of, although this assurance work is largely informal
+						and best practice has yet to emerge across social care teams.
+						<a href="https://drive.google.com/file/d/1EspWBrqQZEZ165hJC_tNOta-3rTUa9vD/view?usp=drive_link">Presentation slides</a>.
+					</p>
+
+					<p>
+						<b>Sebastian Löbbers (QMUL)</b> presented AdSoLve's evaluation platform,
+						focusing on the mental health use case. The platform provides
+						multi-faceted evaluation through a range of metrics as well as
+						reference-free evaluation that goes beyond LLM-as-a-judge. He
+						discussed the progression from stakeholder goals to requirements,
+						tasks, aspects, and metrics, so that abstract real-world needs become
+						computationally measurable. The platform allows users either to browse
+						existing evaluation bundles or to build an evaluation pipeline from a
+						library of tasks, aspects, and metrics. He illustrated this with an NHS
+						Trust scenario in which psychologists use LLMs to summarise clients'
+						social media posts, deriving requirements such as privacy and factual
+						accuracy that map to aspects assessed by multiple metrics, since no
+						single metric is considered sufficient. He also used the demonstration
+						as a starting point for discussing how evidence provided by the
+						platform can translate into regulatory compliance.
+						<a href="https://drive.google.com/file/d/19kBEFmBPOcJ4J8Y9ZwKYAvTMcBMG_NF_/view?usp=drive_link">Presentation slides</a>.
+					</p>
+
+					<h3 id="invited-talks">Invited Talks</h3>
+					<p id="dialog-plus">
+						<b>Stefan Priebe (University of Hamburg)</b> presented DIALOG+, a
+						structured tool that turns routine mental health check-ins into
+						effective therapy in their own right. Patients rate satisfaction
+						across key life areas, then choose what to address using a simple
+						four-step process, with most resulting actions set by the patient
+						rather than the clinician. A randomised trial found that DIALOG+
+						improved quality of life, with effects at least as large as CBT,
+						reduced symptoms, improved social outcomes, and cut costs. These
+						benefits were linked to how it addresses patient concerns, supports
+						problem-solving, and empowers patients to act. Now tested in more than
+						18 countries and freely available online, DIALOG+ points towards a more
+						flexible, patient-driven future for mental health support, including
+						through AI.
+						<a href="https://drive.google.com/file/d/1ZKBOGmWxz7Rz2K3b2vrSkyA8v90r_bok/view?usp=drive_link">Presentation slides</a>.
+					</p>
+
+					<p>
+						<b>Sam Stern (Affiniti AI)</b> described a blended approach that keeps
+						human elements such as the therapeutic alliance with the clinician,
+						while AI handles psychoeducation and skills practice under clinical
+						direction. His core insight, supported by both a hospital prescribing
+						case study and Affiniti's own data, is that risk and disengagement
+						rarely arise from a single flawed output. Instead, they emerge in the
+						handoffs, missed check-ins, and continuity gaps between interactions,
+						where operational failures are experienced by patients as relational
+						abandonment. He called for expanding evaluation beyond individual
+						responses to cover units ranging from entire conversations to
+						multi-session interventions and care pathways.
+						<a href="https://drive.google.com/file/d/1oXsAWUrL3DMSsJf1iapWWRjrXR5bTwln/view?usp=drive_link">Presentation slides</a>.
+					</p>
+
+					<p>
+						<b>Antonia Vehlen (Trier University)</b> shared how AI is being used to
+						move beyond questionnaire-based therapy monitoring towards richer,
+						AI-driven clinical support. She presented several tools used at
+						Wolfgang Lutz's clinic at the University of Trier. The Trier Treatment
+						Navigator gives therapists individualised treatment recommendations
+						and alerts them when patients drift off track. A large trial showed
+						that the feedback improves outcomes only when therapists actually use
+						it, prompting the team to make the tools easier to adopt and to add new
+						data sources such as session recordings. She described three projects
+						illustrating this shift: LLM-based rating scales that infer clinical
+						measures directly from session transcripts; multimodal analyses testing
+						whether combining video, audio, and human-annotated data can improve
+						prediction of patient outcomes beyond text alone; and PsyRAI, an AI
+						rater that scores therapists' micro-level clinical skills and gives
+						trainee psychologists direct feedback on their responses. She closed by
+						noting that AI can help clinicians measure, understand, and train
+						better, but only if it fits into real clinical practice.
+						<a href="https://drive.google.com/file/d/1ZV_spOKHJX_1OJie3jK98lq9tU7XATwT/view?usp=drive_link">Presentation slides</a>.
+					</p>
+
+					<h3 id="panel">
+						Panel Discussion: Key Considerations for Evaluation and Implementation
+						of AI-Assisted Tools in Mental Health Care
+					</h3>
+					<p>
+						The panel brought together Dr Bev Brown (Senior Project and
+						Implementation Manager at the Institute of Mental Health at Nottingham
+						University), Dr Edward Millgate (Clinical Engineer at Scarlet), Sam Pye
+						(Trainee Clinical Psychologist at Surrey and Borders Partnership NHS
+						Foundation Trust), and Mat Rawsthorne (Lived Experience Advisory Panel
+						member at Generation Mental Health). It was chaired by Prof. Rob
+						Procter.
+					</p>
+					<p>Questions were put to the panel on the following topics:</p>
+					<ul>
+						<li>
+							What evidence is needed to trust and adopt Large Language Models in
+							mental health?
+						</li>
+						<li>
+							How do we ensure that benefits are maximised and risks mitigated when
+							Large Language Models are used in practice?
+						</li>
+						<li>
+							How is the adoption of Large Language Models in mental health practice
+							likely to change mental health service provision over the next five
+							years?
+						</li>
+					</ul>
+					<p>
+						Panellists agreed that randomised controlled trials move too slowly for
+						AI, since a trial can take years while models change within months.
+						Platform trials, which swap interventions in and out efficiently, were
+						suggested instead, alongside evaluation tied to a device's actual
+						intended purpose. Trust was described as requiring continuous assurance
+						rather than a one-time certificate, together with feedback grounded in
+						lived experience of using the tools, since strong performance on paper
+						does not guarantee a good real-world experience for the client.
+					</p>
+					<p>
+						Panellists pointed to a regulatory gap between general-purpose LLMs and
+						certified clinical decision-support tools, since the line between a
+						brainstorming aid and a clinical decision-making tool can be crossed
+						with a single prompt. Professional deskilling was raised as an
+						under-discussed risk, alongside epistemic injustice, where a recorded
+						state can become a fixed trait overnight with no way to challenge it.
+						Strong post-market systems and tracking of performance drift were
+						considered essential once devices enter real-world use, while
+						accountability for harm remains an ongoing concern.
+					</p>
+					<p>
+						For the next five years, panellists identified clearer regulatory
+						classification as necessary groundwork, with stakeholder buy-in and
+						clinician acceptance likely to remain barriers. Automation bias was
+						flagged as a risk: a tool assumed to be right most of the time can still
+						be wrong once, with significant consequences. NHS pressure to shorten
+						waiting times was also seen as being in tension with practitioners' aim
+						to treat patients well rather than merely quickly. The discussion
+						closed on the idea that the field already has more innovation than it
+						can implement, so the task ahead is to build infrastructure that
+						supports patient autonomy in the gap between referral and treatment.
+					</p>
+
+					<h3 id="consensus-workshop">Evaluation Consensus Workshop</h3>
+					<p>
+						The Evaluation Consensus Workshop brought together participants across
+						three breakout groups to discuss how stakeholder requirements can be
+						translated into socio-technical evaluation metrics and to build
+						consensus on proposed evaluation packages. Discussions were grounded in
+						two scenarios: DIALOG+, used by secondary care patients between care
+						coordinator appointments, and a summarisation tool used by primary care
+						practitioners to draft therapy-session notes. Participants agreed that
+						the high-level requirements were broadly sound, but identified key
+						gaps, including the need for a basic factuality check; greater
+						linguistic and cultural specificity when judging appropriateness and
+						empathy; better handling of layered emotions in complex conversations;
+						and more realistic measures of conversational flow for therapy
+						settings, where resolution is often subjective. Safety and boundary
+						crossing were seen as harder to define objectively than capability
+						limits, pointing to a need for clinician consensus rather than purely
+						technical definitions.
+					</p>
+					<p>
+						On the proposed evaluation packages, participants broadly agreed with
+						the core requirements and aspects but called for targeted
+						modifications. Key recommendations included clearer categorisation of
+						hallucination types with different tolerance levels, attribution of
+						statements to the therapist or patient, support for conditional
+						summaries relevant to a specific treatment, and stronger safeguards to
+						ensure that AI never overrides clinician decision-making. Participants
+						also emphasised emotional acknowledgement over emotional matching,
+						selective flagging of concerns to clinicians rather than over-flagging,
+						sensitivity to tone and cultural nuance, and avoiding immediate
+						responses to emotionally significant disclosures.
+					</p>
+
+					<h3 id="closing-reflections">Closing Reflections</h3>
+					<p>
+						By the end of the day, several key takeaways had emerged. AI tools show
+						real potential in mental health care, but no single metric or one-off
+						evaluation can capture whether they are safe and trustworthy in
+						practice. Assurance needs to be continuous, tied to real clinical
+						workflows, and built with clinicians, patients, and lived experience at
+						the centre, not merely around technical benchmarks. AdSoLve's work aims
+						to build evaluation frameworks that reflect this while continuing to
+						develop solutions that address LLMs' socio-technical limitations, so
+						that clinicians and patients have the evidence they need to build trust
+						in these systems.
+					</p>
+
+					<h3 id="references">References</h3>
+					<p>
+						Ali, I., Tseriotou, T., Dvir, G., Chan, C., Zhou, Y., Lossio-Ventura,
+						J.A., Klein, A., Shamir, A., Sayda, D., Hills, A.R. and Zirikly, A.
+						(2026). <a href="https://aclanthology.org/2026.clpsych-1.32.pdf"><i>Overview of the CLPsych 2026 Shared Task: Capturing and Characterizing Mental Health Changes Through Social Media Timeline Dynamics</i></a>.
+						In <i>Proceedings of the 10th Workshop on Computational Linguistics and
+						Clinical Psychology (CLPsych 2026)</i>, pp. 389-421.
+					</p>
+					<p>
+						Ali, I., Tseriotou, T., Akhter, M.E., Zhou, Y. and Liakata, M. (2026).
+						<a href="https://arxiv.org/pdf/2604.16382"><i>LiFT: Does Instruction Fine-Tuning Improve In-Context Learning for Longitudinal Modelling by Large Language Models?</i></a>.
+						<i>arXiv preprint arXiv:2604.16382</i>.
+					</p>
+					<p>
+						Tseriotou, T., Tsakalidis, A. and Liakata, M. (2024).
+						<a href="https://aclanthology.org/2024.emnlp-main.1095.pdf"><i>TempoFormer: A Transformer for Temporally-Aware Representations in Change Detection</i></a>.
+						In <i>Proceedings of the 2024 Conference on Empirical Methods in Natural
+						Language Processing</i>, pp. 19635-19653.
+					</p>
+					<p>
+						Kohli, G.S., Zhou, Y., Schlichtkrull, M.S., Dean, G.E. and Liakata, M.
+						(2026). <a href="https://arxiv.org/abs/2607.19678"><i>Reference-Free Evaluation of Reasoning in Open-Ended Question Answering</i></a>.
+						<i>arXiv preprint arXiv:2607.19678</i>.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>

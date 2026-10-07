@@ -609,3 +609,424 @@ ISSN={2673-253X},
   
 ABSTRACT={IntroductionAutomated documentation tools are being rapidly adopted in healthcare and clinical workflows. Among these are AI-enabled ambient scribing products, which transcribe conversations between patients and healthcare providers, then produce clinical records using automatic speech recognition (ASR) and generative AI such as Large Language Models (LLMs). While research suggests these technologies can reduce clinical burden, safe and responsible deployment requires that these tools determine what captured information is appropriate to record and under which circumstances. This presents a contextual privacy challenge distinct from PII leakage or data memorization and remains largely untested.MethodsWe address this gap by operationalizing privacy leakage as the inappropriate inclusion of third-party personal information in LLM-generated clinical notes. We construct a benchmark of transcripts containing private information with gold standard clinical notes by enriching patient metadata from the aci-bench corpus and injecting third-party personal information across six relationship types and seven information topics. We evaluate open weight LLaMA 3.1 8 and 70 B, Mixtral 8×7B and 8×22B, and proprietary Claude 3.5 Haiku and Sonnet models on note generation using prompts with varied privacy and structural requirements.ResultsAll examined models leaked third-party information, and privacy instructions helped reduce leakage but proved neither complete nor robust as a solution. Models could generate privacy-infringing notes despite correctly identifying such information as inappropriate to share. Decomposing generation and privacy editing into separate steps could further reduce leakage, but only when privacy was defined with contextual specificity.DiscussionNo single mitigation eliminated leakage entirely, but combining approaches yielded the greatest reductions. Results emphasize the need to build privacy-by-design systems and develop evaluation strategies that reflect emerging information synthesis and sharing practices.}
 }
+@inproceedings{liao-etal-2026-diagnosing,
+    title = "Diagnosing Lower Extremity Arteriovenous Diseases Using Agentic {LLM}s",
+    author = "Liao, Zicen  and
+      Sun, Yunhao  and
+      Purver, Matthew",
+    editor = "Demner-Fushman, Dina  and
+      Ananiadou, Sophia  and
+      Roberts, Kirk  and
+      Tsujii, Junichi",
+    booktitle = "{B}io{NLP} 2026",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.bionlp-1.21/",
+    doi = "10.18653/v1/2026.bionlp-1.21",
+    pages = "250--267",
+    ISBN = "979-8-89176-434-7",
+    abstract = "This paper introduces LEA-Dialog, a multi-turn diagnostic dialogue dataset for lower-extremity arteriovenous diseases, together with a carefully developed diagnostic handbook and a process-aligned agentic framework for structured outpatient diagnosis. The dataset provides stage annotations for each turn and guideline-grounded probability trends, enabling evaluation beyond final diagnostic accuracy. Experiments show that the framework improves reasoning stability and reduces drift across both online and offline LLMs, with particularly large gains for smaller offline models."
+}
+@misc{dong2026handscsstructuralcoordinatespace,
+      title={HandSCS: Structural Coordinate Space for Animatable Hand Gaussian Splatting}, 
+      author={Yilan Dong and Wenqing Wang and Qing Wang and Jiahao Yang and Haohe Liu and Xiatuan Zhu and Gregory Slabaugh and Shanxin Yuan},
+      year={2026},
+      eprint={2503.14736},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2503.14736}, 
+}
+@misc{gaintseva2026equisteercrossattentionsteeringfairer,
+      title={EquiSteer: Cross-Attention Steering Towards a Fairer Text-Guided Image Generation}, 
+      author={Tatiana Gaintseva and Akshit Achara and Gregory Slabaugh and Jiankang Deng and Ismail Elezi},
+      year={2026},
+      eprint={2607.01147},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2607.01147}, 
+}
+@InProceedings{10.1007/978-3-032-36846-1_30,
+author="Patra, Arijit
+and Dey, Samiran
+and Rajan, Ajitha
+and Slabaugh, Gregory
+and Chakraborti, Tapabrata",
+editor="Favaro, Paolo
+and Kukelova, Zuzana
+and Maki, Atsuto
+and Rohrbach, Anna
+and Schindler, Konrad
+and Tombari, Federico",
+title="Mechanistic Interventions for Explainable Digital Pathology Uncovers Adversarial Vulnerabilities",
+booktitle="Computer Vision -- ECCV 2026",
+year="2026",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="501--518",
+abstract="The deployment of deep learning in digital pathology holds transformative potential for cancer diagnosis, yet its clinical adoption is hindered by the opaque and vulnerable nature of black-box models. In this work, we introduce a mechanistic examination framework that combines sparse autoencoders and activation patching to dissect adversarial vulnerabilities in pathology models as several learned features may correspond to non-morphological artifacts rather than clinically meaningful patterns. By isolating the neural circuits responsible for these vulnerabilities, we demonstrate that models often rely on spurious, non-generalizable cues, particularly in middle layers of Vision Transformers and later convolutional blocks of ResNets. To address this, we propose Mechanism-Informed Adversarial Training, a novel approach that targets vulnerable circuits with precision regularization, achieving state-of-the-art robustness while preserving clean performance. Crucially, our framework aligns with rapidly emerging clinical and regulatory demands for alignment, accountability, and safety in AI-driven diagnostics. By providing a mathematically rigorous, interpretable, and actionable method to audit and fortify deep learning models, we seek to bridge the gap between AI research and clinical deployment, offering a pathway to trustworthy, regulation-ready AI in healthcare. Our findings not only inform the field of adversarial machine learning but also set a precedent for mechanistically grounded artificial intelligence in real-world medical applications.",
+isbn="978-3-032-36846-1"
+}
+@InProceedings{DeeWil_SHOTCCR_MICCAI2026,
+        author = { Dee, William AND Wenteler, Aaron AND Seal, Srijit AND Morris, Otto AND Slabaugh, Gregory},
+        title = { { SHOT-CCR: Biologically Guided Adversarial Training for Test-Time Adaptation in Cellular Morphology } },
+        booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2026},
+        year = {2026},
+        publisher = {Springer Nature Switzerland},
+        volume = {LNCS 16891},
+        month = {September},
+        page = {pending}
+}
+@misc{gaintseva2026casteercrossattentionsteeringcontrollable,
+      title={CASteer: Cross-Attention Steering for Controllable Concept Erasure}, 
+      author={Tatiana Gaintseva and Andreea-Maria Oncescu and Chengcheng Ma and Ziquan Liu and Martin Benning and Gregory Slabaugh and Jiankang Deng and Ismail Elezi},
+      year={2026},
+      eprint={2503.09630},
+      archivePrefix={arXiv},
+      primaryClass={cs.GR},
+      url={https://arxiv.org/abs/2503.09630}, 
+}
+@inproceedings{cao-etal-2026-fundamental,
+    title = "Fundamental Reasoning Paradigms Induce Out-of-Domain Generalization in Language Models",
+    author = "Cao, Mingzi  and
+      Tan, Xingwei  and
+      Akhter, Mahmud Elahi  and
+      Valentino, Marco  and
+      Liakata, Maria  and
+      Wang, Xi  and
+      Aletras, Nikolaos",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-acl.1653/",
+    doi = "10.18653/v1/2026.findings-acl.1653",
+    pages = "33025--33046",
+    ISBN = "979-8-89176-395-1",
+    abstract = "Deduction, induction, and abduction are fundamental reasoning paradigms, core for human logical thinking. Although improving Large Language Model (LLM) reasoning has attracted significant research efforts, the extent to which the fundamental paradigms induce generalization has yet to be systematically explored. In this study, we shed light on how the interplay between these core paradigms influences LLMs' reasoning behavior. To this end, we first collect a new dataset of reasoning trajectories from symbolic tasks, each targeting one of the three fundamental paradigms, to abstract from concrete world knowledge. Then, we investigate effective ways for inducing these skills into LLMs.We experiment with a battery of methods including simple fine-tuning, and more complex approaches to increase model depth, or transform a dense model to a mixture-of-experts. We comprehensively evaluate induced models on realistic out-of-domain tasks, that are entirely formulated in natural language and contain real-world knowledge. Our results reveal that our approach yields strong generalizability with substantial performance gains (up to 14.60) across realistic tasks."
+}
+@misc{mao2026automateddataenrichmentusing,
+      title={Automated Data Enrichment using Confidence-Aware Fine-Grained Debate among Open-Source LLMs for Mental Health and Online Safety}, 
+      author={Junyu Mao and Anthony Hills and Talia Tseriotou and Maria Liakata and Aya Shamir and Dan Sayda and Dana Atzil-Slonim and Natalie Djohari and Pamela Ugwudike and Mahesan Niranjan and Stuart E. Middleton},
+      year={2026},
+      eprint={2512.06227},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2512.06227}, 
+}
+@inproceedings{cao-etal-2026-fundamental,
+    title = "Fundamental Reasoning Paradigms Induce Out-of-Domain Generalization in Language Models",
+    author = "Cao, Mingzi  and
+      Tan, Xingwei  and
+      Akhter, Mahmud Elahi  and
+      Valentino, Marco  and
+      Liakata, Maria  and
+      Wang, Xi  and
+      Aletras, Nikolaos",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-acl.1653/",
+    doi = "10.18653/v1/2026.findings-acl.1653",
+    pages = "33025--33046",
+    ISBN = "979-8-89176-395-1",
+    abstract = "Deduction, induction, and abduction are fundamental reasoning paradigms, core for human logical thinking. Although improving Large Language Model (LLM) reasoning has attracted significant research efforts, the extent to which the fundamental paradigms induce generalization has yet to be systematically explored. In this study, we shed light on how the interplay between these core paradigms influences LLMs' reasoning behavior. To this end, we first collect a new dataset of reasoning trajectories from symbolic tasks, each targeting one of the three fundamental paradigms, to abstract from concrete world knowledge. Then, we investigate effective ways for inducing these skills into LLMs.We experiment with a battery of methods including simple fine-tuning, and more complex approaches to increase model depth, or transform a dense model to a mixture-of-experts. We comprehensively evaluate induced models on realistic out-of-domain tasks, that are entirely formulated in natural language and contain real-world knowledge. Our results reveal that our approach yields strong generalizability with substantial performance gains (up to 14.60) across realistic tasks."
+}
+@inproceedings{chen-etal-2026-finedialfact,
+  title = {FineDialFact: A Benchmark for Fine-Grained Dialogue Fact Verification},
+  author = {Chen, Xiangyan and Li, Yufeng and Gan, Yujian and Zubiaga, Arkaitz and Purver, Matthew},
+  booktitle = {Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)},
+  month = {May},
+  year = {2026},
+  pages = {2798--2811},
+  address = {Palma, Mallorca, Spain},
+  publisher = {European Language Resources Association (ELRA)},
+  editor = {Piperidis, Stelios and Bel, Núria and van den Heuvel, Henk and Ide, Nancy and Krek, Simon and Toral, Antonio},
+  doi = {10.63317/3y7cf5ctmi4c},
+  abstract = {Large language models are known to produce hallucinations - factually incorrect or fabricated information - which poses significant challenges for many natural language processing applications, such as dialogue systems. As a result, detecting hallucinations has become a critical area of research. Current approaches to hallucination detection in dialogue systems primarily focus on verifying the factual consistency of generated responses. However, these responses often contain a mix of accurate, inaccurate or non-verifiable facts, making the use of a single factual label overly simplistic and coarse-grained. In this paper, we introduce a benchmark, FineDialFact, for fine-grained dialogue fact verification, which involves verifying atomic facts extracted from dialogue responses. To support this, we construct a dataset based on publicly available dialogue datasets and evaluate it using various baseline methods. Experimental results demonstrate that methods incorporating Chain-of-Thought reasoning can enhance performance in dialogue fact verification. Despite this, the best F1-score achieved on the HybriDialogue, an open-domain dialogue dataset, is only 0.74, indicating that the benchmark remains a challenging task for future research. We release our dataset and code at https://github.com/XiangyanChen/FineDialFact.}
+}
+@misc{almannaa2026investigatingllmcapabilitieslong,
+      title={Investigating LLM Capabilities on Long Context Comprehension for Medical Question Answering}, 
+      author={Feras AlMannaa and Talia Tseriotou and Jenny Chim and Maria Liakata},
+      year={2026},
+      eprint={2510.18691},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2510.18691}, 
+}
+@inproceedings{caporusso-etal-2026-exploring,
+  title = {Exploring Social Bias in Slovenia: The EEC-SL Dataset},
+  author = {Caporusso, Jaya and Hoogland, Damar and Koloski, Boshko and Purver, Matthew and Pollak, Senja and Vintar, Spela},
+  booktitle = {Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)},
+  month = {May},
+  year = {2026},
+  pages = {4019--4030},
+  address = {Palma, Mallorca, Spain},
+  publisher = {European Language Resources Association (ELRA)},
+  editor = {Piperidis, Stelios and Bel, Núria and van den Heuvel, Henk and Ide, Nancy and Krek, Simon and Toral, Antonio},
+  doi = {10.63317/2pdt2x4ci6e5},
+  abstract = {We introduce the EEC-SL dataset, an adaptation of the Equity Evaluation Corpus from English to Slovenian. Based on 11 sentence templates, the dataset contains 8,640 sentences, including pairs of minimally-distant sentences, varying with regard to one of two variables: gender (female or male), and ethnicity (Slovenian or not-Slovenian). In order to validate our selection of personal names, we create a localised version of the Implicit Association Test for ethnic bias, in which participants show a significant implicit bias favouring Slovenian over non-Slovenian names. We use the dataset to evaluate social bias in three computational language models (large language models and an encoder-only transformer) to perform sentiment analysis—specifically, valence. We analyse the results in terms of differences in sentiment between minimally-distant groups of sentences and inferential tests. We found limited evidence for social bias with regard to ethnicity, and no evidence for gender bias, in any of the employed models.}
+}
+@misc{sahili2025multimodalmachinelearningmental,
+      title={Multimodal Machine Learning in Mental Health: A Survey of Data, Algorithms, and Challenges}, 
+      author={Zahraa Al Sahili and Ioannis Patras and Matthew Purver},
+      year={2025},
+      eprint={2407.16804},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2407.16804}, 
+}
+@inproceedings{almannaa-etal-2026-optimed,
+  title = {OptiMed at ArchEHR-QA 2026: GEPA Prompt Optimization and Multi-Agent Majority Voting for EHR-Grounded Question Answering },
+  author = {AlMannaa, Feras and Tseriotou, Talia and Liakata, Maria},
+  booktitle = {Proceedings of the Third Workshop on Patient-Oriented Language Processing (CL4Health) @ LREC 2026},
+  month = {May},
+  year = {2026},
+  pages = {539--550},
+  address = {Palma, Mallorca, Spain},
+  publisher = {European Language Resources Association (ELRA)},
+  editor = {Gupta, Deepak and Thompson, Paul and Ananiadou, Sophia and Demner-Fushman, Dina},
+  doi = {10.63317/5gyu3jbn755r},
+  abstract = {Despite the demonstrated promise of Large Language Models in medical question answering, existing work largely addresses closed-form, exam-style tasks and overlooks complex open-ended questions requiring reasoning over noisy, long clinical documents. In this work, we present our system, OptiMed, submitted to the ArchEHR-QA 2026 shared task on grounded clinical question answering over EHR notes. We combine GEPA, an evolutionary prompt optimization framework, with multi-agent majority voting across five diverse LLMs and a structured clinical abstraction strategy for question interpretation. OptiMed ranked 1st overall among teams completing all four subtasks with an average score of 52.0, achieving top AlignScore in both Question Interpretation and Answer Generation, reflecting strong factual grounding. GEPA optimization proved effective for structured tasks with sufficient development data, but failed to generalize on complex generative tasks under very limited number of supervisions. Multi-agent majority voting consistently lifted performance in evidence-oriented subtasks. Prompt analysis attributes GEPA’s gains to role prompting and procedural decomposition and failures to over-specification under limited supervision.}
+}
+@inproceedings{ali-etal-2026-overview,
+    title = "Overview of the {CLP}sych 2026 Shared Task: Capturing and Characterizing Mental Health Changes through Social Media Timeline Dynamics",
+    author = "Ali, Iqra  and
+      Tseriotou, Talia  and
+      Dvir, Guy  and
+      Chan, Callum  and
+      Zhou, Yuxiang  and
+      Lossio-Ventura, Juan Antonio  and
+      Klein, Ayal  and
+      Shamir, Aya  and
+      Sayda, Dan  and
+      Hills, Anthony R  and
+      Zirikly, Ayah  and
+      Inkpen, Diana  and
+      Atzil-Slonim, Dana  and
+      Liakata, Maria",
+    editor = "Zirikly, Aya  and
+      Bar, Kfir  and
+      MacAvaney, Sean  and
+      Ireland, Molly  and
+      Ophir, Yaakov  and
+      Atzil-Slonim, Dana  and
+      Varadarajan, Vasudha  and
+      Bedrick, Steven  and
+      Desmet, Bart",
+    booktitle = "Proceedings of the 11th Workshop on Computational Linguistics and Clinical Psychology ({CLP}sych 2026)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.clpsych-1.32/",
+    doi = "10.18653/v1/2026.clpsych-1.32",
+    pages = "389--421",
+    ISBN = "979-8-89176-421-7",
+    abstract = "We provide an overview of the CLPsych 2026 Shared Task, which focuses on capturing and characterizing mental health dynamics from social media timelines through structured modeling of self-states. This year advances the longitudinal paradigm set by prior CLPsych shared tasks (2022, 2025), by integrating fine-grained psychological representation using the MIND framework. The task is organized into three main components: (1) post-level identification of adaptive and maladaptive self-states through ྀི elements and sub-elements, along with estimation of their presence; (2) timeline-level detection of Moments of Change, including both abrupt switches and gradual escalations based on ABCd element and sub-element combinations; and (3) sequence-level modeling, involving summarization of change processes over time and identification of recurrent dynamic signatures."
+}
+@misc{ali2026liftenableincontextlearning,
+      title={LiFT: How to Enable In-Context Learning for Longitudinal Modelling}, 
+      author={Iqra Ali and Talia Tseriotou and Mahmud Elahi Akhter and Yuxiang Zhou and Maria Liakata},
+      year={2026},
+      eprint={2604.16382},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2604.16382}, 
+}
+@inproceedings{hills-etal-2026-multistream,
+    title = "Multistream Modelling for Mental Health: Modelling Linguistic and Temporal Contexts with Mutual and Self-Excitation in Social Media",
+    author = "Hills, Anthony  and
+      Tseriotou, Talia  and
+      Akhter, Mahmud  and
+      Mao, Junyu  and
+      Ali, Iqra  and
+      Miscouridou, Xenia  and
+      Liakata, Maria",
+    editor = "Zirikly, Aya  and
+      Bar, Kfir  and
+      MacAvaney, Sean  and
+      Ireland, Molly  and
+      Ophir, Yaakov  and
+      Atzil-Slonim, Dana  and
+      Varadarajan, Vasudha  and
+      Bedrick, Steven  and
+      Desmet, Bart",
+    booktitle = "Proceedings of the 11th Workshop on Computational Linguistics and Clinical Psychology ({CLP}sych 2026)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.clpsych-1.5/",
+    doi = "10.18653/v1/2026.clpsych-1.5",
+    pages = "56--75",
+    ISBN = "979-8-89176-421-7",
+    abstract = "We present MHRoBERT (Multistream HEAT over Recurrence over BERT), a hierarchical transformer architecture for longitudinal mental health monitoring that models self- and mutual excitation patterns in linguistic and temporal data across multivariate event streams relating to an individual{'}s mental health. To supply the model with complementary perspectives on each post, we apply a Large Language Model (LLM) based annotation to extract three streams from social media posts: emotional states, personal life events, and mental health symptoms. A central finding is that multi-task learning with these automatically-generated stream labels provides substantial, consistent improvements across all model architectures evaluated. Multistream information further consistently benefits simpler models not explicitly designed to exploit it: LLM baselines incorporating stream annotations improve macro F1 by 12.6{\%} over text-only prompting. These results have direct implications for the CLPsych Shared Task on Moments of Change detection: multistream auxiliary supervision yields consistent, substantial gains regardless of architecture, suggesting it is a simple and portable strategy that future systems can readily adopt with minimal architectural changes. MHRoBERT additionally produces interpretable learned parameters across streams, revealing temporal interaction patterns between mental health indicators."
+}
+@article{Kuc2026,
+  title = {Human or AI? An Interpretable Method for Auditing  Free-Text Data in Online Psychological Research},
+  url = {http://dx.doi.org/10.31234/osf.io/9ehbn_v2},
+  DOI = {10.31234/osf.io/9ehbn_v2},
+  publisher = {Center for Open Science},
+  author = {Kuc,  Joanna and Hills,  Anthony and Cooper,  Greg and Akhter,  Mahmud Elahi and Tseriotou,  Talia and Liakata,  Maria and Lametti,  Daniel Robert and Skipper,  Jeremy I},
+  year = {2026},
+  month = Aug 
+}
+@article{LI2026106311,
+title = {Accuracy paradox: Addressing epistemic, manipulative, and societal risks of hallucination in AI governance},
+journal = {Computer Law & Security Review},
+volume = {61},
+pages = {106311},
+year = {2026},
+issn = {2212-473X},
+doi = {https://doi.org/10.1016/j.clsr.2026.106311},
+url = {https://www.sciencedirect.com/science/article/pii/S2212473X26000520},
+author = {Zihao Li and Weiwei Yi and Jiahong Chen},
+keywords = {Accuracy Paradox, Hallucination, Artificial Intelligence, Large Language Models, AI Regulation, Data Protection, AI Governance},
+abstract = {The rise of generative AI has intensified concerns around AI hallucination, which involves outputs that are fabricated, misleading, oversimplified or untrustworthy. While many technical and policy responses treat hallucination as a failure of factual accuracy, this paper argues that such a narrow lens underestimates the complexity of the problem. AI hallucination is not merely a matter of truth or falsehood, but a multifaceted phenomenon with cognitive, communicative, and societal implications. Overreliance on accuracy has counterproductive effect: the accuracy paradox. We propose a taxonomy and theoretical framework for understanding hallucination risks across three dimensions: epistemic reliability, Human-AI interactive influence, and social impact. Through regulatory analysis, we show that accuracy-driven approaches often overlook harms such as illusion of consensus, subtly persuasive misinformation, and diminished social progression. Current legal regulation, including the EU AI Act, GDPR, and DSA, struggle to address these subtler forms of distortion. We call for regulatory strategies that go beyond static verification, embracing pluralistic, context-aware, and manipulation-resilient approaches to AI trustworthy governance.}
+}
+@article{Giacco2026,
+  title = {From AI-assisted tools to mental health care systems: a qualitative study with professionals and users of AI-DIALOG+ (Preprint)},
+  url = {http://dx.doi.org/10.2196/preprints.103468},
+  DOI = {10.2196/preprints.103468},
+  publisher = {JMIR Publications Inc.},
+  author = {Giacco,  Domenico and Thelwell,  Emily Louise Rose and Wells,  Imogen and Bhattacharya,  Rahul and Owen,  Nicole and Amanova,  Sofia and Jilka,  Sagar and Priebe,  Roman and Priebe,  Stefan},
+  year = {2026},
+  month = June 
+}
+@misc{tan2026compliancevssensibilityreasoning,
+      title={Compliance vs. Sensibility: On the Reasoning Controllability in Large Language Models}, 
+      author={Xingwei Tan and Marco Valentino and Mahmud Elahi Akhter and Yuxiang Zhou and Maria Liakata and Nikolaos Aletras},
+      year={2026},
+      eprint={2604.27251},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2604.27251}, 
+}
+@misc{karouzos2026empiricalstudypreferencetuning,
+      title={An Empirical Study on Preference Tuning Generalization and Diversity Under Domain Shift}, 
+      author={Constantinos Karouzos and Xingwei Tan and Nikolaos Aletras},
+      year={2026},
+      eprint={2601.05882},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2601.05882}, 
+}
+@misc{lewislim2026confidenceestimatesdecidechainofthought,
+      title={Can Confidence Estimates Decide When Chain-of-Thought Is Necessary for LLMs?}, 
+      author={Samuel Lewis-Lim and Xingwei Tan and Zhixue Zhao and Nikolaos Aletras},
+      year={2026},
+      eprint={2510.21007},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2510.21007}, 
+}
+@inproceedings{ijcai2026p608,
+  title     = {The Alignment Bottleneck in Decomposition-Based Claim Verification},
+  author    = {Akhter, Mahmud Elahi and Ruggeri, Federico and Bilal, Iman Munire and Procter, Robert and Liakata, Maria},
+  booktitle = {Proceedings of the Thirty-Fifth International Joint Conference on
+               Artificial Intelligence, {IJCAI-26}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Diego Calvanese},
+  pages     = {5458--5467},
+  year      = {2026},
+  month     = {8},
+  note      = {Main Track},
+  doi       = {10.24963/ijcai.2026/608},
+  url       = {https://doi.org/10.24963/ijcai.2026/608},
+}
+@article{doi:10.1177/20552076261467804,
+author = {Sarah Pais and Holly Coole and Janagan Alagarajah and Aislinn Gómez Bergin},
+title ={Artificial intelligence in digital mental health technology: Considerations for regulation},
+
+journal = {DIGITAL HEALTH},
+volume = {12},
+number = {},
+pages = {20552076261467804},
+year = {2026},
+doi = {10.1177/20552076261467804},
+
+URL = { 
+    
+        https://doi.org/10.1177/20552076261467804
+    
+    
+
+},
+eprint = { 
+    
+        https://doi.org/10.1177/20552076261467804
+    
+    
+
+}
+,
+    abstract = { Artificial intelligence (AI) is being introduced into all aspects of life with notable adoption seen in health care and systems and growing utility in the domain of digital mental health technology (DMHT). The Medicines and Healthcare products Regulatory Agency and the National Institute for Health and Care Excellence in the UK are together exploring the regulation and evaluation of DMHT through a Wellcome-funded project. As part of this initiative, a symposium was held to bring together experts from across the AI and DMHT sector representing a breadth of disciplines, to share insights and inform the project. This review presents a reflection of the key opportunities and challenges of AI in DMHT with a focus on medical device regulation, distilling the main themes from the symposium. To facilitate responsible and agile regulation enabling access to high quality, safe, and effective medical products, regulators will need to continually adapt and develop, with new processes, guidance, initiatives and forums to fully engage in this innovative, exponentially developing field. }
+}
+@Article{info:doi/10.2196/92187,
+author="Hitcham, Lucy
+and G{\'o}mez Bergin, Aislinn
+and Ito-Jaeger, Sachiyo
+and Reeves, Stuart
+and Perez Vallejos, Elvira",
+title="Adoption of Digital Mental Health Interventions in National Health Service England, Scotland, and Wales: Freedom of Information Questionnaire Study",
+journal="JMIR Ment Health",
+year="2026",
+month="May",
+day="14",
+volume="13",
+pages="e92187",
+keywords="digital therapeutics; mental health services; digital; health care; National Health Service; United Kingdom",
+abstract="Background: Digital mental health interventions (DMHIs) have been widely promoted to improve access to mental health care within the UK National Health Service (NHS), particularly following the COVID-19 pandemic. In 2015, a total of 48 technologies were reportedly used in NHS services in England, but over the past decade, substantial changes to regulatory requirements, evidence standards, and procurement processes have reshaped the digital mental health landscape. There is limited clarity regarding which DMHIs are currently being formally procured and funded by NHS mental health services across the United Kingdom. Objective: This study aimed to identify and describe the DMHIs currently procured, contracted, or paid for by NHS mental health service providers in England, Scotland, and Wales for adult common mental health problems and to compare current procurement practices with findings reported in 2015. Methods: Freedom of Information requests were submitted to all NHS mental health trusts in England and all health boards in Scotland and Wales. Responses were collated and screened to provide an updated and extended record of which technologies are reportedly procured or paid for by services. Results: In total, 19 different DMHIs were identified as being procured across mental health service providers for adult common mental health problems at the time of data collection. This demonstrates a substantial reduction in the number of technologies being adopted into practice compared to the 48 reported in England in 2015. The findings reveal several key insights, including that only 2 technologies have remained in use for a decade, and they shed light on the types of technologies being selected and the variations in procurement practices among the 3 national health services. Conclusions: Despite the expansion of the digital mental health marketplace, the number of DMHIs formally procured by NHS mental health services has markedly decreased over the past decade. This consolidation may reflect increased selectivity and the adoption of higher-quality products, driven by strengthened regulatory oversight, evidence standards, and national guidance. Although these developments may enhance safety and quality assurance, they also raise important questions about innovation, market sustainability, and equitable access to digital mental health care. Ongoing monitoring of procurement practices is needed to inform policy, service design, and the future development of DMHIs. ",
+issn="2368-7959",
+doi="10.2196/92187",
+url="https://mental.jmir.org/2026/1/e92187",
+url="https://doi.org/10.2196/92187"
+}
+@Article{bs16061026,
+AUTHOR = {Thomas, Zoe and Dunn, Abby and Gomez Bergin, Aislinn D. and Hazell, Cassie M.},
+TITLE = {D&D and You: A Reflexive Thematic Analysis of Young Adult Players’ Experiences Exploring Identity and Mental Health Through Dungeons and Dragons},
+JOURNAL = {Behavioral Sciences},
+VOLUME = {16},
+YEAR = {2026},
+NUMBER = {6},
+ARTICLE-NUMBER = {1026},
+URL = {https://www.mdpi.com/2076-328X/16/6/1026},
+PubMedID = {42352859},
+ISSN = {2076-328X},
+ABSTRACT = {Dungeons and Dragons (D&D) is a collaborative roleplaying game that is associated with social and emotional benefits for young adults (YAs). Research has not addressed how YAs’ understanding of identity and mental health is explored through D&D. This research explored the impact that playing D&D has on YAs’ understanding of their identity and how this relates to their mental health. Eleven YAs (aged 18–25) were interviewed about their experiences of playing D&D. Their interviews were analysed using Reflexive Thematic Analysis. Four main themes were identified: D&D as a safer space; D&D for coping; D&D for exploration; and D&D for growth. The findings demonstrate that YAs use D&D to navigate experiences such as social and emotional difficulties and their evolving sense of self. D&D helped YAs to manage their current circumstances as well as to look to the future. These findings highlight the positive impact D&D has on identity exploration and mental health for YAs. Playing D&D was perceived by participants as improving their wellbeing, relationships, and occupations at a critical time developmentally when they are developing their sense of self. Consideration of how D&D may be incorporated into existing intervention approaches is discussed, including implications for further research.},
+DOI = {10.3390/bs16061026}
+}
+﻿@Article{Macaskill2026,
+author={Macaskill, Findlay
+and Deliu, Matea
+and Zapantis, Ilias
+and Jidkov, Lydia
+and Mcculloch, Peter
+and Bergin, Aislinn
+and Abbs, Ian
+and Dasgupta, Prokar},
+title={Responsible AI UK: priorities for delivering England's health and life sciences plans},
+journal={BMJ Digital Health {\&} AI},
+year={2026},
+month={Apr},
+day={10},
+volume={2},
+number={1},
+pages={e000083},
+abstract={In 2025, the UK government published two major policy documents shaping healthcare and innovation in England: the `10-year plan: `Fit for the Future' and the `Life Sciences Sector Plan'. Together, they articulate a vision for a digital, data-enabled health system using artificial intelligence (AI).1 2},
+doi={10.1136/bmjdh-2026-000083},
+url={https://doi.org/10.1136/bmjdh-2026-000083}
+}

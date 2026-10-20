@@ -7,13 +7,14 @@ pi_coi:
     desc: "NLP, Temporality"
     homepage: "https://maria-liakata-nlp-group.github.io/"
     scholar: "https://scholar.google.co.uk/citations?user=eys5GB4AAAAJ&hl=en"
-
-  - name: "Dr. Julia Ive"
-    image_filename: "ive.png"
-    institution: "QMUL"
-    desc: "NLP, Privacy"
-    homepage: "https://julia-ive.github.io/"
-    scholar: "https://scholar.google.com/citations?user=WMYcG5EAAAAJ&hl=en"
+    
+  # Former project member — retained for a future past-members section.
+  # - name: "Dr. Julia Ive"
+  #   image_filename: "ive.png"
+  #   institution: "QMUL"
+  #   desc: "NLP, Privacy"
+  #   homepage: "https://julia-ive.github.io/"
+  #   scholar: "https://scholar.google.com/citations?user=WMYcG5EAAAAJ&hl=en"
 
   - name: "Prof. Matthew Purver"
     image_filename: "purver.png"
@@ -35,13 +36,14 @@ pi_coi:
     desc: "Cancer Research"
     homepage: "https://www.bartscancer.london/staff/professor-claude-chelala/"
     scholar: "https://scholar.google.com/citations?user=hKivCXcAAAAJ&hl=en"
-
-  - name: "Dr. Michael Schlichtkrull"
-    image_filename: "schlichtkrull.png"
-    institution: "QMUL"
-    desc: "NLP"
-    homepage: "https://michschli.github.io/"
-    scholar: "https://scholar.google.com/citations?user=z8YvWyEAAAAJ&hl=en"
+  
+  # Former project member — retained for a future past-members section.
+  # - name: "Dr. Michael Schlichtkrull"
+  #   image_filename: "schlichtkrull.png"
+  #   institution: "QMUL"
+  #   desc: "NLP"
+  #   homepage: "https://michschli.github.io/"
+  #   scholar: "https://scholar.google.com/citations?user=z8YvWyEAAAAJ&hl=en"
 
   - name: "Prof. Domenico Giacco"
     image_filename: "giacco.png"

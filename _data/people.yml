@@ -124,6 +124,13 @@ research_staff:
     homepage: "https://sebastianlobbers.com/"
     scholar: "https://scholar.google.com/citations?user=PqZZVGsAAAAJ&hl=en&oi=ao"
 
+  - name: "Mahmud Elahi Akhter"
+    image_filename: "mahmud.jpg"
+    institution: "QMUL"
+    desc: "NLP, Evaluation, Reasoning, Mechanistic Interpretability, XAI"
+    homepage: "https://www.linkedin.com/in/akhterme/"
+    scholar: "https://scholar.google.com/citations?user=kfUcTGUAAAAJ&hl=en"
+  
   # - name: "Jenny Chim"
   #   image_filename: "chim.png"
   #   institution: "QMUL"

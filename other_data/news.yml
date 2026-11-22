@@ -102,3 +102,9 @@ items:
     url: "/2026-06-24-evaluating-ai-for-mental-health-support-workshop.html"
     date: "2026/06/24"
     category: "event"
+
+  - title: "Event Overview: Trustworthy Multimodal Medical Diagnostics — From Innovation to Adoption"
+    desc: "At AdSoLve’s second multimodal medical diagnostics workshop, researchers, clinicians and health technology stakeholders discussed when combining data improves clinical decisions and what it takes to evaluate and adopt these tools in the NHS. Read the workshop overview and access the slides."
+    url: "/2026-10-21-trustworthy-multimodal-medical-diagnostics.html"
+    date: "2026/10/21"
+    category: "event"
